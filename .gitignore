@@ -1,0 +1,11 @@
+*.swp
+*~
+.DS_Store
+*.tmp
+*.tmp
+*.pprof
+*.pdf
+
+/docs
+/tests
+website

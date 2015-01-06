@@ -1,0 +1,33 @@
+
+<footer class="footer">
+  <p>© 2014 <a href="http://www.yunshipei.com" target="_blank">AllMobilize, Inc.</a> Licensed under <a
+      href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>. by the AmazeUI Team.</p>
+</footer>
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="/js/polyfill/rem.min.js"></script>
+<script src="/js/polyfill/respond.min.js"></script>
+<script src="/js/amazeui.legacy.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/amazeui.min.js"></script>
+<!--<![endif]-->
+ <script type="text/javascript">
+		var init =true
+        $(document).on('change', '#lang', function(){
+        	if (!init) {
+        		var $e = $(this);
+	            var lang = $e.val();
+	            $.AMUI.utils.cookie.set('lang', lang,365,"/","");
+	            window.location.reload();
+        	}else{
+        		init = false
+        	}
+        });
+    </script>
+</body>
+</html>
