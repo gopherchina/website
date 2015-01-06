@@ -15,7 +15,7 @@
     .get-btn {
       background: #fff;
     }
-
+    .center{ text-align: center;}
     .detail {
       background: #fff;
     }
@@ -33,11 +33,15 @@
     .detail-p {
       color: #7f8c8d;
     }
-
+  .detail-span {
+      color: #7f8c8d;
+    }
     .detail-mb {
       margin-bottom: 30px;
     }
-
+.detail-mt {
+      margin-top: 10px;
+    }
     .hope {
       background: #0bb59b;
       padding: 50px 0;
@@ -70,6 +74,16 @@
       padding: 30px 0 50px 0;
       text-align: center;
     }
+.partner{
+  padding:0 0 0 25px;
+  /*border-right: 1px solid #E0E0E0;*/
+}
+.partner img {
+  width: 120px;
+  height: 40px;
+  border: 1px solid #e3e3e3;
+  margin: 25px 12px 0px;
+}
 
     .footer p {
       color: #7f8c8d;

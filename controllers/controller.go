@@ -5,6 +5,7 @@ import (
 	"time"
 
 	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/config"
 	"github.com/beego/i18n"
 )
 
@@ -101,6 +102,15 @@ func (this *baseController) setLangVer() bool {
 	this.Data["CurLang"] = curLang.Name
 	this.Data["RestLangs"] = restLangs
 	return isNeedRedir
+}
+
+func InitNav() {
+	nav, err := config.NewConfig("json", "conf/nav.json")
+	if err != nil {
+		beego.Error(err)
+	}
+	diy, err := nav.DIY("nav")
+	beego.Info(diy)
 }
 
 func InitLocales() {
