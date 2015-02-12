@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"fmt"
 	"io"
 	"os"
 
@@ -19,6 +20,7 @@ func (this *DocsController) Get() {
 	name := this.Ctx.Input.Param(":name")
 	id := this.Ctx.Input.Param(":id")
 	if name == "" {
+		this.Data["indexActive"] = true
 		this.TplNames = "index.tpl"
 	} else {
 		filename := name
@@ -26,7 +28,12 @@ func (this *DocsController) Get() {
 			filename = name + "/" + id
 		}
 		df := models.GetDoc(filename, this.Lang)
+		if df == nil {
+			this.Abort("404")
+		}
+		this.Data[fmt.Sprintf("%sActive", name)] = true
 		this.Data["Section"] = name
+
 		this.Data["Title"] = df.Title
 		this.Data["title"] = df.Title + " - "
 		this.Data["Data"] = string(df.Data)

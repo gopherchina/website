@@ -21,6 +21,16 @@
       }
 
     }
+    img{
+      display: inline-block;
+padding: 2px;
+line-height: 1.6;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 0;
+-webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+    }
     
     @media only screen and (max-width: 640px) {
       .am-offcanvas-bar .am-nav>li>a {
@@ -102,6 +112,7 @@
   </div>
   <a href="#sidebar" class="am-btn am-btn-sm am-btn-success am-icon-bars am-show-sm-only my-button" data-am-offcanvas><span class="am-sr-only">侧栏导航</span></a>
 </div>
+<div style="height:20px"></div>
 {{template "base/footer.html" .}}
 <script type="text/javascript">
 var jqmRefresh = function(elem, type, classname) {

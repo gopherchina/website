@@ -17,7 +17,7 @@
 <header class="am-topbar am-topbar-fixed-top">
   <div class="am-container">
     <h1 class="am-topbar-brand">
-      <a href="#">Gopher China</a>
+      <a href="/">Gopher China</a>
     </h1>
 
     <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only"
@@ -26,11 +26,10 @@
 
     <div class="am-collapse am-topbar-collapse" id="collapse-head">
       <ul class="am-nav am-nav-pills am-topbar-nav">
-        <li class="am-active"><a href="/">{{i18n .Lang "home"}}</a></li>
-        <li><a href="/share">分享嘉宾</a></li>
-        <li><a href="/topic">演讲专题</a></li>
-        <li><a href="#">报名流程</a></li>
-        <li class="am-dropdown" data-am-dropdown>
+        <li {{if .indexActive}} class="am-active"{{end}}><a href="/">{{i18n .Lang "home"}}</a></li>
+        <li {{if .userActive}} class="am-active"{{end}}><a href="/speaker">{{i18n .Lang "speaker"}}</a></li>
+        <li ><a href="http://gopherchina.eventdove.com/">在线报名</a></li>
+        <li {{if .signinActive}} class="am-active"{{end}} class="am-dropdown" data-am-dropdown>
           <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
             注册参会 <span class="am-icon-caret-down"></span>
           </a>
@@ -38,7 +37,6 @@
         	<li><a href="#">会场信息</a></li>
         	<li><a href="#">参会路线</a></li>
             <li><a href="#">酒店推荐</a></li>
-            <li><a href="#">志愿者招募</a></li>
           </ul>
         </li>
         <li class="am-dropdown" data-am-dropdown>

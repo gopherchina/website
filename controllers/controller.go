@@ -76,9 +76,9 @@ func (this *baseController) setLangVer() bool {
 		}
 	}
 
-	// 4. Default language is English.
+	// 4. Default language is (Chinese) English.
 	if len(lang) == 0 {
-		lang = "en-US"
+		lang = "zh-CN" //"en-US"
 		isNeedRedir = false
 	}
 

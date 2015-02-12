@@ -10,7 +10,7 @@
       </p>
 
       <p>
-        <a href="http://gopherchina.org" class="am-btn am-btn-sm get-btn">在线报名</a>
+        <a href="http://gopherchina.eventdove.com/" class="am-btn am-btn-sm get-btn">在线报名</a>
       </p>
     </div>
   </div>
@@ -39,28 +39,28 @@
                 <tr>
                     <td align="center" rowspan="3" valign="middle">4月24日<br>周六</td>
                     <td>08:30-12:00</td>
-                    <td><a href="http://2014.qconshanghai.com/user/641">许式伟,真实的云计算实践 专题出品人</a>- 七牛云存储CEO</td>
+                    <td><a href="/user/chenmingda">陈明达,厦门真有趣信息科技有限公司</a>- Go语言在游戏项目的应用情况汇报</td>
                 </tr>
                 <tr>
                     <td>13:00-15:00</td>
-                    <td><a href="http://2014.qconshanghai.com/user/649">程显峰,互联网思维对金融的挑战 专题出品人</a>- 积木盒子技术副总裁</td>
+                    <td><a href="/user/liuqi">刘奇,豌豆莢</a>- go在分布式系统开发中的应用</td>
                 </tr>
                 <tr >
                     <td>15:15-17:00</td>
-                    <td><a href="http://2014.qconshanghai.com/user/648">陈钢,大数据架构和行业应用 专题出品人</a>- 华大科技副总裁</td>
+                    <td><a href="/user/zhouyang">周洋,奇虎360</a>- go语言构建高并发分布式系统实践</td>
                 </tr>
                 <tr>
                     <td align="center" rowspan="3" valign="middle">4月25日<br>周日</td>
                     <td>08:30-12:00</td>
-                    <td><a href="http://2014.qconshanghai.com/user/643">鄢学鵾（秦歌、三七),没有后端 专题出品人</a>- 天猫前端团队负责人</td>
+                    <td><a href="/user/lisibao">李四宝,杭州佑软科技</a>- 在p2p网络构之上构建的应用生态----Leither</td>
                 </tr>
                  <tr>
                     <td>13:00-15:00</td>
-                    <td><a href="http://2014.qconshanghai.com/user/649">程显峰,互联网思维对金融的挑战 专题出品人</a>- 积木盒子技术副总裁</td>
+                    <td><a href="/user/gonghaohua">龚浩华,网宿科技</a>- 基于golang实现的p2p cache服务器</td>
                 </tr>
                 <tr >
                     <td>15:15-17:00</td>
-                    <td><a href="http://2014.qconshanghai.com/user/648">陈钢,大数据架构和行业应用 专题出品人</a>- 华大科技副总裁</td>
+                    <td><a href="/user/qleelulu">QLeelulu,广州舜飞</a>- GO在RTB实时竞价DSP广告系统中的应用</td>
                 </tr>
             </tbody>
         </table>
@@ -77,43 +77,57 @@
             <span class="detail-p ">Andrew Gerrand</span> <br>
               <span>Google 程序员</span>
             </div>
-              
           </div>
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
-            <a href="/user/641"><img typeof="foaf:Image" src="http://2014.qconshanghai.com/sites/default/files/xushiwei.jpg" alt=""></a>
+            <a href="/user/xushiwei"><img typeof="foaf:Image" src="http://2014.qconshanghai.com/sites/default/files/xushiwei.jpg" alt=""></a>
               <span class="detail-span">许式伟</span> <br>
               <span>七牛云存储CEO</span>
             </div>
           </div>
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
-            <a href="/user/641"><img typeof="foaf:Image" src="http://2014.qconshanghai.com/sites/default/files/chengang.jpg" alt=""></a>
-              <span class="detail-span">陈钢</span> <br>
-              <span>华大科技副总裁</span>
+            <a href="/user/chenmingda"><img typeof="foaf:Image" src="/static/img/chenmingda.png" alt=""></a>
+              <span class="detail-span">陈明达</span> <br>
+              <span>厦门真有趣科技</span>
             </div>
           </div>
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
-            <a href="/user/641"><img typeof="foaf:Image" src="http://2014.qconshanghai.com/sites/default/files/xushiwei.jpg" alt=""></a>
-               <span class="detail-span">许式伟</span> <br>
-              <span>七牛云存储CEO</span>
+            <a href="/user/zhouyang"><img typeof="foaf:Image" src="/static/img/zhouyang.jpg" alt=""></a>
+              <span class="detail-span">周洋</span> <br>
+              <span>奇虎360</span>
             </div>
           </div>
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
-            <a href="/user/641"><img typeof="foaf:Image" src="http://2014.qconshanghai.com/sites/default/files/xushiwei.jpg" alt=""></a>
-               <span class="detail-p">许式伟</span> <br>
-              <span>七牛云存储CEO</span>
+            <a href="/user/liuqi"><img typeof="foaf:Image" src="/static/img/liuqi.png" alt=""></a>
+               <span class="detail-span">刘奇</span> <br>
+              <span>豌豆莢</span>
             </div>
           </div>
-          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb am-u-end">
+           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
-            <a href="/user/641"><img typeof="foaf:Image" src="http://2014.qconshanghai.com/sites/default/files/xushiwei.jpg" alt=""></a>
-              <span class="detail-p">许式伟</span> <br>
-              <span>七牛云存储CEO</span>
+            <a href="/user/gonghaohua"><img typeof="foaf:Image" src="/static/img/gonghaohua.jpg" alt=""></a>
+              <span class="detail-span">龚浩华</span> <br>
+              <span>网宿科技</span>
             </div>
           </div>
+          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+            <div class="am-u-md-10 center">
+            <a href="/user/qleelulu"><img typeof="foaf:Image" src="/static/img/qleelulu.jpg" alt=""></a>
+              <span class="detail-span">QLeelulu</span> <br>
+              <span>广州舜飞</span>
+            </div>
+          </div>
+          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+            <div class="am-u-md-10 center">
+            <a href="/user/lisibao"><img typeof="foaf:Image" src="/static/img/lisibao.jpg" alt=""></a>
+               <span class="detail-span">李四保</span> <br>
+              <span>杭州佑软科技</span>
+            </div>
+          </div>
+          
         </div>
         <div class="am-u-lg-12 am-u-md-6 am-u-sm-12 detail-mb">
           <h3 class="detail-h3">
@@ -147,11 +161,11 @@
               <a href="https://www.talkingdata.net/" target="_blank"><img alt="TalkingData" border="0" src="http://q.infoqstatic.com/img/20140916/TalkingData.jpg" title="TalkingData"></a>
               <a href="http://www.tingyun.com/" target="_blank"><img alt="听云" border="0" src="http://q.infoqstatic.com/img/20140923/tingyun.jpg" title="听云"></a>
               <a href="http://www.qiniu.com/" target="_blank"><img alt="七牛" border="0" src="http://www.qconbeijing.com/download/qiniu-logo.jpg" title="七牛"></a>
-              <a href="https://www.upyun.com/index.html" target="_blank"><img alt="又拍云" border="0" src="http://www.qconbeijing.com/download/youpai.jpg" title="又拍云"></a>
+              <!-- <a href="https://www.upyun.com/index.html" target="_blank"><img alt="又拍云" border="0" src="http://www.qconbeijing.com/download/youpai.jpg" title="又拍云"></a>
               <a href="http://www.jiankongbao.com/" target="_blank"><img alt="云智慧" border="0" src="http://q.infoqstatic.com/img/20140910/yunzhihui.png" title="云智慧"></a>
               <a href="http://www.intsig.com" target="_blank"><img alt="合合信息" border="0" src="http://q.infoqstatic.com/img/20140923/cc.png" title="合合信息"></a>
               <a href="http://www.hoge.cn/" target="_blank"><img alt="厚建软件" border="0" src="http://q.infoqstatic.com/img/20140925/hoge.jpg" title="厚建软件"></a>
-              <a href="http://www.makaevent.com/" target="_blank"><img alt="MAKA EVENT" border="0" src="http://q.infoqstatic.com/img/20140925/maka.jpg" title="MAKA EVENT"></a>
+              <a href="http://www.makaevent.com/" target="_blank"><img alt="MAKA EVENT" border="0" src="http://q.infoqstatic.com/img/20140925/maka.jpg" title="MAKA EVENT"></a> -->
           </div>
         </div>
       </div>

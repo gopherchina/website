@@ -13,6 +13,7 @@ func main() {
 	beego.Router("/", &controllers.MainController{})
 	beego.Router("/:name", &controllers.MainController{})
 	beego.Router("/:name/:id", &controllers.DocsController{})
+	beego.InsertFilter("/images/:all", beego.BeforeRouter, controllers.DocsStatic)
 	controllers.InitLocales()
 	models.InitModels()
 	beego.AddFuncMap("i18n", i18n.Tr)
