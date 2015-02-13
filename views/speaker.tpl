@@ -73,7 +73,7 @@
 				<div class="am-u-md-10 center">
 					<a href="/user/yuheng"><img typeof="foaf:Image" class="am-circle" src="/images/yuheng.jpg" alt="雨衡"></a>
 					<span class="detail-span">雨衡</span> <br>
-					<span>yuheng</span>
+					<span>资深菜鸟</span>
 				</div>
 			</div>
 		</div>
