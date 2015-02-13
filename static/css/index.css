@@ -79,10 +79,9 @@
   /*border-right: 1px solid #E0E0E0;*/
 }
 .partner img {
-  width: 120px;
-  height: 40px;
-  border: 1px solid #e3e3e3;
-  margin: 25px 12px 0px;
+  width: 125px;
+  height: auto;
+  margin: 10px 50px 0px 0px;
 }
 
     .footer p {

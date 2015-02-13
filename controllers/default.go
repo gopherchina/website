@@ -16,8 +16,15 @@ func (this *MainController) Get() {
 		this.Data["indexActive"] = true
 		this.TplNames = "index.tpl"
 	} else if name == "speaker" {
+		this.Data["Title"] = "分享嘉宾"
 		this.Data["userActive"] = true
 		this.TplNames = "speaker.tpl"
+	} else if name == "venue" {
+		this.Data["Title"] = "会场信息"
+		this.TplNames = "venue.tpl"
+	} else if name == "sponsors" {
+		this.Data["cActive"] = true
+		this.TplNames = "sponsors.tpl"
 	} else {
 		df := models.GetDoc(name, this.Lang)
 		this.Data[fmt.Sprintf("%sActive", name)] = true

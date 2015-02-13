@@ -139,33 +139,29 @@
             大会报名 <i class="am-icon-hand-o-right"></i> 在线支付（支付宝） <i class="am-icon-hand-o-right"></i>获取电子门票报名成功 <i class="am-icon-hand-o-right"></i> 持打印的电子门票现场签到（或凭彩信/短信） <i class="am-icon-hand-o-right"></i> 领取大会证件(胸卡)、餐券、大会资料等 [<a href="">详细</a>] 
           </p>
         </div>
+        <a name="media"></a>
         <div class="am-u-lg-12 am-u-md-6 am-u-sm-12 detail-mb">
           <h3 class="detail-h3">
             <i class="am-icon-chain am-icon-sm"></i>
             合作伙伴
           </h3>
           <div class="partner">
-              <a href="http://www.baidu.com/" target="_blank"><img alt="百度" src="http://q.infoqstatic.com/img/20140923/baidu.jpg" title="百度"></a>
-              <a href="http://www.h3c.com.cn/" target="_blank"><img alt="华三通信" src="http://q.infoqstatic.com/img/20140910/H3C.png" title="华三通信"></a>
-              <a href="http://aws.amazon.com/cn/" target="_blank"><img alt="AWS" src="http://sz2014.archsummit.com/download/aws-logo.jpg" title="AWS"></a>
-              <a href="https://www.atlassian.com/" target="_blank"><img alt="Atlassian" border="0" src="http://q.infoqstatic.com/img/20140826/atlassian.jpg" title="Atlassian"></a>
-              <a href="http://www.jetbrains.com/" target="_blank"><img alt="JetBrains" border="0" src="http://q.infoqstatic.com/img/20140804/JetBrains.png" title="JetBrains"></a>
-              <a href="http://www.booking.com/" target="_blank"><img alt="Booking" border="0" src="http://q.infoqstatic.com/img/20140916/booking.jpg" title="Booking"></a>
-              <a href="https://gitcafe.com/" target="_blank"><img alt="GitCafe" border="0" src="http://q.infoqstatic.com/img/20140923/gitcafe.jpg" title="GitCafe"></a>
-              <a href="http://www.easemob.com/" target="_blank"><img alt="环信" border="0" src="http://q.infoqstatic.com/img/20140916/huanxin.jpg" title="环信"></a>
-              <a href="http://www.microsoft.com/zh-cn/default.aspx?region=cn" target="_blank"><img alt="微软" src="http://infoqstatic.b0.upaiyun.com/img/20140701/ms.png" title="微软"></a>
-              <a href="http://www.mingdao.com/home" target="_blank"><img alt="明道" border="0" src="http://q.infoqstatic.com/img/20140804/mingdao.jpg" title="明道"></a>
-              <a href="http://www.sequoiadb.com/" target="_blank"><img alt="SequoiaDB" border="0" src="http://q.infoqstatic.com/img/20141023/SequoiaDB.jpg" title="SequoiaDB"></a>
-              <a href="http://www.oneapm.com/" target="_blank"><img alt="oneAPM" border="0" src="http://q.infoqstatic.com/img/20140902/oneAPM.jpg" title="oneAPM"></a>
-              <a href="http://www.yuntongxun.com/" target="_blank"><img alt="容联·云通讯" border="0" src="http://q.infoqstatic.com/img/20140916/ronglian.jpg" title="容联·云通讯"></a>
-              <a href="https://www.talkingdata.net/" target="_blank"><img alt="TalkingData" border="0" src="http://q.infoqstatic.com/img/20140916/TalkingData.jpg" title="TalkingData"></a>
-              <a href="http://www.tingyun.com/" target="_blank"><img alt="听云" border="0" src="http://q.infoqstatic.com/img/20140923/tingyun.jpg" title="听云"></a>
-              <a href="http://www.qiniu.com/" target="_blank"><img alt="七牛" border="0" src="http://www.qconbeijing.com/download/qiniu-logo.jpg" title="七牛"></a>
-              <!-- <a href="https://www.upyun.com/index.html" target="_blank"><img alt="又拍云" border="0" src="http://www.qconbeijing.com/download/youpai.jpg" title="又拍云"></a>
-              <a href="http://www.jiankongbao.com/" target="_blank"><img alt="云智慧" border="0" src="http://q.infoqstatic.com/img/20140910/yunzhihui.png" title="云智慧"></a>
-              <a href="http://www.intsig.com" target="_blank"><img alt="合合信息" border="0" src="http://q.infoqstatic.com/img/20140923/cc.png" title="合合信息"></a>
-              <a href="http://www.hoge.cn/" target="_blank"><img alt="厚建软件" border="0" src="http://q.infoqstatic.com/img/20140925/hoge.jpg" title="厚建软件"></a>
-              <a href="http://www.makaevent.com/" target="_blank"><img alt="MAKA EVENT" border="0" src="http://q.infoqstatic.com/img/20140925/maka.jpg" title="MAKA EVENT"></a> -->
+              <a href="http://www.qiniu.com/" target="_blank"><img alt="七牛" border="0" src="/static/images/qiniu.jpg" title="七牛"></a>
+              <a href="http://www.huawei.com/" target="_blank"><img alt="华为" border="0" src="/static/images/huawei.png" title="华为"></a>
+               <a href="http://www.jd.com/" target="_blank"><img alt="京东" border="0" src="/static/images/jd.png" title="京东"></a>
+          </div>
+        </div>
+        <a name="sponsors"></a>
+        <div class="am-u-lg-12 am-u-md-6 am-u-sm-12 detail-mb">
+          <h3 class="detail-h3">
+            <i class="am-icon-chain am-icon-sm"></i>
+            合作媒体
+          </h3>
+          <div class="partner">
+              <a href="http://www.infoq.com/cn" target="_blank"><img alt="InfoQ" border="0" src="/static/images/InfoQ.jpg" title="InfoQ"></a>
+              <a href="http://www.csdn.net" target="_blank"><img alt="CSDN" border="0" src="/static/images/csdn.png" title="CSDN"></a>
+              <a href="http://segmentfault.com/" target="_blank"><img alt="segmentfault" border="0" src="/static/images/segmentfault.png" title="segmentfault"></a>
+
           </div>
         </div>
       </div>
