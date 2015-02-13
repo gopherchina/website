@@ -31,8 +31,8 @@ func (this *MainController) Get() {
 		df := models.GetDoc(name, this.Lang)
 		this.Data[fmt.Sprintf("%sActive", name)] = true
 		this.Data["Section"] = name
-		this.Data["Title"] = df.Title
-		this.Data["title"] = df.Title + " - GopherChina"
+		this.Data["Title"] = df.Title + " - GopherChina"
+		this.Data["title"] = df.Title
 		this.Data["Data"] = string(df.Data)
 		this.TplNames = "detail.tpl"
 	}
