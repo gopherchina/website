@@ -17,7 +17,7 @@
             <div class="am-u-md-10 center">
             <a href="/user/maquanyi"><img typeof="foaf:Image" class="am-circle m120" src="/images/maquanyi.jpg" alt="" ></a>
             <span class="detail-p ">马全一</span> <br>
-              <span>Docker.cn创始人</span>
+              <span>Dockercn创始人</span>
             </div>
           </div>
 		  <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
