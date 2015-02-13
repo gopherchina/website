@@ -73,14 +73,14 @@
 
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
-            <a href="/user/641"><img typeof="foaf:Image" src="https://avatars2.githubusercontent.com/u/8446613?v=3&s=460" alt=""></a>
-            <span class="detail-p ">Andrew Gerrand</span> <br>
-              <span>Google 程序员</span>
+            <a href="/user/maquanyi"><img typeof="foaf:Image" src="/images/maquanyi.jpg" alt="" ></a>
+            <span class="detail-p ">马全一</span> <br>
+              <span>Docker.cn创始人</span>
             </div>
           </div>
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
-            <a href="/user/xushiwei"><img typeof="foaf:Image" src="http://2014.qconshanghai.com/sites/default/files/xushiwei.jpg" alt=""></a>
+            <a href="/user/xushiwei"><img typeof="foaf:Image" src="/images/xushiwei.jpg" alt=""></a>
               <span class="detail-span">许式伟</span> <br>
               <span>七牛云存储CEO</span>
             </div>
