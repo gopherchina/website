@@ -28,7 +28,7 @@
       <ul class="am-nav am-nav-pills am-topbar-nav">
         <li {{if .indexActive}} class="am-active"{{end}}><a href="/">{{i18n .Lang "home"}}</a></li>
         <li {{if .userActive}} class="am-active"{{end}}><a href="/speaker">{{i18n .Lang "speaker"}}</a></li>
-        <li ><a href="http://gopherchina.eventdove.com/">{{i18n .Lang "register"}}</a></li>
+        <li {{if .regActive}} class="am-active"{{end}}><a href="/register">{{i18n .Lang "register"}}</a></li>
         <li {{if .signinActive}} class="am-active"{{end}} class="am-dropdown" data-am-dropdown>
           <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
             {{i18n .Lang "venue"}} <span class="am-icon-caret-down"></span>

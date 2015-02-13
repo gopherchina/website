@@ -10,7 +10,7 @@
       </p>
 
       <p>
-        <a href="http://gopherchina.eventdove.com/" class="am-btn am-btn-sm get-btn">在线报名</a>
+        <a href="/register" class="am-btn am-btn-sm get-btn">在线报名</a>
       </p>
     </div>
   </div>

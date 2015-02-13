@@ -22,9 +22,9 @@ func (this *MainController) Get() {
 	} else if name == "venue" {
 		this.Data["Title"] = "会场信息"
 		this.TplNames = "venue.tpl"
-	} else if name == "sponsors" {
-		this.Data["cActive"] = true
-		this.TplNames = "sponsors.tpl"
+	} else if name == "register" {
+		this.Data["regActive"] = true
+		this.TplNames = "register.tpl"
 	} else {
 		df := models.GetDoc(name, this.Lang)
 		this.Data[fmt.Sprintf("%sActive", name)] = true
