@@ -6,7 +6,7 @@
       <img src="/static/images/gopherconf.png">
       <h1 class="get-title">Gopher China 2015 上海 大会 欢迎您!!</h1>
       <p>
-        时间：2015年4月24-25日 地点：中国·上海市浦东软件大厦
+        时间：2015年4月25-26日 地点：中国·上海市浦东软件大厦
       </p>
 
       <p>
@@ -37,7 +37,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td align="center" rowspan="9" valign="middle">4月24日<br>周六</td>
+                    <td align="center" rowspan="9" valign="middle">4月25日<br>周六</td>
                     <td>08:20-8:50</td>
                     <td>入场报到</td>
                 </tr>
@@ -74,7 +74,7 @@
                     <td><a href="/user/zhouyang">华为工程师</a>- 待定</td>
                 </tr>
                 <tr>
-                    <td align="center" rowspan="7" valign="middle">4月25日<br>周日</td>
+                    <td align="center" rowspan="7" valign="middle">4月26日<br>周日</td>
                     <td>09:00-10:00</td>
                     <td><a href="/user/core">Go team developer</a>- 待定</td>
                 </tr>
@@ -168,16 +168,7 @@
           </div>
           
         </div>
-        <div class="am-u-lg-12 am-u-md-6 am-u-sm-12 detail-mb">
-          <h3 class="detail-h3">
-            <i class="am-icon-tasks am-icon-sm"></i>
-            报名流程
-          </h3>
-
-          <p class="detail-p">
-            大会报名 <i class="am-icon-hand-o-right"></i> 在线支付（支付宝） <i class="am-icon-hand-o-right"></i>获取电子门票报名成功 <i class="am-icon-hand-o-right"></i> 持打印的电子门票现场签到（或凭彩信/短信） <i class="am-icon-hand-o-right"></i> 领取大会入场券及礼品
-          </p>
-        </div>
+        
         <a name="media"></a>
         <div class="am-u-lg-12 am-u-md-6 am-u-sm-12 detail-mb">
           <h3 class="detail-h3">
