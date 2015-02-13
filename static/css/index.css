@@ -2,14 +2,11 @@
       background: #1E5B94;
       color: #fff;
       text-align: center;
-      padding: 100px 0;
+      padding: 50px 0;
     }
 
     .get-title {
       font-size: 200%;
-      border: 2px solid #fff;
-      padding: 20px;
-      display: inline-block;
     }
 
     .get-btn {

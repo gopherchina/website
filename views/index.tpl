@@ -3,8 +3,8 @@
 <div class="get">
   <div class="am-g">
     <div class="am-u-lg-12">
-      <h1 class="get-title">欢迎参加Gopher China 上海 2015 大会!</h1>
-
+      <img src="/static/images/gopherconf.png">
+      <h1 class="get-title">Gopher China 2015 上海 大会 欢迎您!!</h1>
       <p>
         时间：2015年4月24-25日 地点：中国·上海市浦东软件大厦
       </p>
@@ -70,59 +70,58 @@
             <i class="am-icon-users am-icon-sm"></i>
             演讲嘉宾
           </h3>
-
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
-            <a href="/user/maquanyi"><img typeof="foaf:Image" src="/images/maquanyi.jpg" alt="" ></a>
-            <span class="detail-p ">马全一</span> <br>
-              <span>Docker.cn创始人</span>
-            </div>
-          </div>
-          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-            <div class="am-u-md-10 center">
-            <a href="/user/xushiwei"><img typeof="foaf:Image" src="/images/xushiwei.jpg" alt=""></a>
+            <a href="/user/xushiwei"><img class="am-circle" typeof="foaf:Image" src="/images/xushiwei.jpg" alt=""></a>
               <span class="detail-span">许式伟</span> <br>
               <span>七牛云存储CEO</span>
             </div>
           </div>
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
-            <a href="/user/chenmingda"><img typeof="foaf:Image" src="/static/img/chenmingda.png" alt=""></a>
+            <a href="/user/maquanyi"><img class="am-circle" typeof="foaf:Image" src="/images/maquanyi.jpg" alt="" ></a>
+            <span class="detail-p ">马全一</span> <br>
+              <span>Docker.cn创始人</span>
+            </div>
+          </div>
+          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+            <div class="am-u-md-10 center">
+            <a href="/user/chenmingda"><img class="am-circle" typeof="foaf:Image" src="/static/img/chenmingda.png" alt=""></a>
               <span class="detail-span">陈明达</span> <br>
               <span>厦门真有趣科技</span>
             </div>
           </div>
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
-            <a href="/user/zhouyang"><img typeof="foaf:Image" src="/static/img/zhouyang.jpg" alt=""></a>
+            <a href="/user/zhouyang"><img class="am-circle" typeof="foaf:Image" src="/static/img/zhouyang.jpg" alt=""></a>
               <span class="detail-span">周洋</span> <br>
               <span>奇虎360</span>
             </div>
           </div>
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
-            <a href="/user/liuqi"><img typeof="foaf:Image" src="/static/img/liuqi.png" alt=""></a>
+            <a href="/user/liuqi"><img class="am-circle" typeof="foaf:Image" src="/static/img/liuqi.png" alt=""></a>
                <span class="detail-span">刘奇</span> <br>
               <span>豌豆莢</span>
             </div>
           </div>
            <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
-            <a href="/user/gonghaohua"><img typeof="foaf:Image" src="/static/img/gonghaohua.jpg" alt=""></a>
+            <a href="/user/gonghaohua"><img class="am-circle" typeof="foaf:Image" src="/static/img/gonghaohua.jpg" alt=""></a>
               <span class="detail-span">龚浩华</span> <br>
               <span>网宿科技</span>
             </div>
           </div>
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
-            <a href="/user/qleelulu"><img typeof="foaf:Image" src="/static/img/qleelulu.jpg" alt=""></a>
+            <a href="/user/qleelulu"><img class="am-circle" typeof="foaf:Image" src="/static/img/qleelulu.jpg" alt=""></a>
               <span class="detail-span">QLeelulu</span> <br>
               <span>广州舜飞</span>
             </div>
           </div>
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
-            <a href="/user/lisibao"><img typeof="foaf:Image" src="/static/img/lisibao.jpg" alt=""></a>
+            <a href="/user/lisibao"><img class="am-circle" typeof="foaf:Image" src="/static/img/lisibao.jpg" alt=""></a>
                <span class="detail-span">李四保</span> <br>
               <span>杭州佑软科技</span>
             </div>
