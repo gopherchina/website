@@ -66,7 +66,7 @@
 				<div class="am-u-md-10 center">
 					<a href="/user/maojian"><img typeof="foaf:Image" class="am-circle" src="/images/maojian.jpg" alt="毛剑"></a>
 					<span class="detail-span">毛剑</span> <br>
-					<span>猎豹科技</span>
+					<span>猎豹移动</span>
 				</div>
 			</div>
 			<div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
