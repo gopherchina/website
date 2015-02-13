@@ -13,25 +13,26 @@ type MainController struct {
 func (this *MainController) Get() {
 	name := this.Ctx.Input.Param(":name")
 	if name == "" {
+		this.Data["Title"] = "GopherChina"
 		this.Data["indexActive"] = true
 		this.TplNames = "index.tpl"
 	} else if name == "speaker" {
-		this.Data["Title"] = "分享嘉宾"
+		this.Data["Title"] = "分享嘉宾 - GopherChina"
 		this.Data["userActive"] = true
 		this.TplNames = "speaker.tpl"
 	} else if name == "venue" {
-		this.Data["Title"] = "会场信息"
+		this.Data["Title"] = "会场信息 - GopherChina"
 		this.TplNames = "venue.tpl"
 	} else if name == "register" {
 		this.Data["regActive"] = true
-		this.Data["Title"] = "注册报名"
+		this.Data["Title"] = "注册报名 - GopherChina"
 		this.TplNames = "register.tpl"
 	} else {
 		df := models.GetDoc(name, this.Lang)
 		this.Data[fmt.Sprintf("%sActive", name)] = true
 		this.Data["Section"] = name
 		this.Data["Title"] = df.Title
-		this.Data["title"] = df.Title + " - "
+		this.Data["title"] = df.Title + " - GopherChina"
 		this.Data["Data"] = string(df.Data)
 		this.TplNames = "detail.tpl"
 	}

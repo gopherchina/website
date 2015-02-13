@@ -20,7 +20,7 @@
               <span>Docker.cn创始人</span>
             </div>
           </div>
-			<div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+		  <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
 				<div class="am-u-md-10 center">
 					<a href="/user/chenmingda"><img typeof="foaf:Image" class="am-circle" src="/images/chenmingda.png" alt="陈明达"></a>
 					<span class="detail-span">陈明达</span> <br>
@@ -62,7 +62,6 @@
 					<span>杭州佑软科技</span>
 				</div>
 			</div>
-			
 			<div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
 				<div class="am-u-md-10 center">
 					<a href="/user/xudaoli"><img typeof="foaf:Image" class="am-circle" src="/images/xudaoli.jpg" alt="徐倒立"></a>
@@ -74,13 +73,14 @@
 				<div class="am-u-md-10 center">
 					<a href="/user/yujun"><img typeof="foaf:Image" class="am-circle" src="/images/yujun.jpg" alt="余军"></a>
 					<span class="detail-span">余军</span> <br>
-              		<span>淘宝</span>
+              		<span>上海拜服</span>
 				</div>
 			</div>
 			<div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
 				<div class="am-u-md-10 center">
-					<a href="/user/yuheng"><img typeof="foaf:Image" class="am-circle" src="/images/yuheng.jpg" alt="雨衡"></a>
-					<span class="detail-span">雨衡</span> <br>
+					<a href="/user/yuhen"><img typeof="foaf:Image" class="am-circle" src="/images/yuhen.jpg" alt="雨痕"></a>
+					<span class="detail-span">雨痕</span> <br>
+              		<span>雨痕</span>
 				</div>
 			</div>
 			<div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
@@ -90,6 +90,9 @@
 					<span>猎豹移动</span>
 				</div>
 			</div>
+			
+			
+			
 		</div>
 	</div>
 </div>

@@ -88,7 +88,7 @@
                 </tr>
                  <tr>
                     <td>13:30-14:30</td>
-                    <td><a href="/user/yuheng">雨痕</a>- Go 1.4 runtime</td>
+                    <td><a href="/user/yuhen">雨痕</a>- Go 1.4 runtime</td>
                 </tr>
                  <tr>
                     <td>14:35-15:35</td>
@@ -167,23 +167,24 @@
             </div>
           </div>
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-        <div class="am-u-md-10 center">
-          <a href="/user/xudaoli"><img typeof="foaf:Image" class="am-circle" src="/images/xudaoli.jpg" alt="徐倒立"></a>
-          <span class="detail-span">徐倒立</span> <br>
-                  <span>七牛云存储</span>
-        </div>
-      </div>
+            <div class="am-u-md-10 center">
+              <a href="/user/xudaoli"><img typeof="foaf:Image" class="am-circle" src="/images/xudaoli.jpg" alt="徐倒立"></a>
+              <span class="detail-span">徐倒立</span> <br>
+                      <span>七牛云存储</span>
+            </div>
+          </div>
       <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
         <div class="am-u-md-10 center">
           <a href="/user/yujun"><img typeof="foaf:Image" class="am-circle" src="/images/yujun.jpg" alt="余军"></a>
           <span class="detail-span">余军</span> <br>
-                  <span>淘宝</span>
+                  <span>上海拜服</span>
         </div>
       </div>
       <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
         <div class="am-u-md-10 center">
-          <a href="/user/yuheng"><img typeof="foaf:Image" class="am-circle" src="/images/yuheng.jpg" alt="雨衡"></a>
-          <span class="detail-span">雨衡</span> <br>
+          <a href="/user/yuhen"><img typeof="foaf:Image" class="am-circle" src="/images/yuhen.jpg" alt="雨痕"></a>
+          <span class="detail-span">雨痕</span> <br>
+                  <span>雨痕</span>
         </div>
       </div>
       <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">

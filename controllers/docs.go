@@ -21,6 +21,7 @@ func (this *DocsController) Get() {
 	id := this.Ctx.Input.Param(":id")
 	if name == "" {
 		this.Data["indexActive"] = true
+		this.Data["Title"] = "GopherChina"
 		this.TplNames = "index.tpl"
 	} else {
 		filename := name
@@ -35,7 +36,7 @@ func (this *DocsController) Get() {
 		this.Data["Section"] = name
 
 		this.Data["Title"] = df.Title
-		this.Data["title"] = df.Title + " - "
+		this.Data["title"] = df.Title + " - GopherChina"
 		this.Data["Data"] = string(df.Data)
 		this.TplNames = "detail.tpl"
 	}
