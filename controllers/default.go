@@ -24,6 +24,7 @@ func (this *MainController) Get() {
 		this.TplNames = "venue.tpl"
 	} else if name == "register" {
 		this.Data["regActive"] = true
+		this.Data["Title"] = "注册报名"
 		this.TplNames = "register.tpl"
 	} else {
 		df := models.GetDoc(name, this.Lang)

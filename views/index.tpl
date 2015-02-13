@@ -67,7 +67,7 @@
                 </tr>
                 <tr >
                     <td>15:50-16：50</td>
-                    <td><a href="/user/yujun">余军</a>- 待定</td>                    
+                    <td><a href="/user/yujun">余军</a>- 动态资源管理和容器技术在金融行业的架构探索和明天</td>                    
                 </tr>
                 <tr >
                     <td>16:55-17：55</td>
@@ -88,7 +88,7 @@
                 </tr>
                  <tr>
                     <td>13:30-14:30</td>
-                    <td><a href="/user/yuhen">雨痕</a>- Go 1.4 runtime</td>
+                    <td><a href="/user/yuheng">雨痕</a>- Go 1.4 runtime</td>
                 </tr>
                  <tr>
                     <td>14:35-15:35</td>
@@ -96,7 +96,7 @@
                 </tr>
                  <tr>
                     <td>15:50-16:50</td>
-                    <td><a href="/user/xudaoli">徐倒立,七牛</a>- 待定</td>
+                    <td><a href="/user/xudaoli">徐倒立,七牛</a>- Go打造百Gbps视频直播系统的挑战与实现</td>
                 </tr>
                 <tr >
                     <td>16:55-17:55</td>
@@ -166,14 +166,40 @@
               <span>杭州佑软科技</span>
             </div>
           </div>
-          
+          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+        <div class="am-u-md-10 center">
+          <a href="/user/xudaoli"><img typeof="foaf:Image" class="am-circle" src="/images/xudaoli.jpg" alt="徐倒立"></a>
+          <span class="detail-span">徐倒立</span> <br>
+                  <span>七牛云存储</span>
+        </div>
+      </div>
+      <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+        <div class="am-u-md-10 center">
+          <a href="/user/yujun"><img typeof="foaf:Image" class="am-circle" src="/images/yujun.jpg" alt="余军"></a>
+          <span class="detail-span">余军</span> <br>
+                  <span>淘宝</span>
+        </div>
+      </div>
+      <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+        <div class="am-u-md-10 center">
+          <a href="/user/yuheng"><img typeof="foaf:Image" class="am-circle" src="/images/yuheng.jpg" alt="雨衡"></a>
+          <span class="detail-span">雨衡</span> <br>
+        </div>
+      </div>
+      <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+        <div class="am-u-md-10 center">
+          <a href="/user/maojian"><img typeof="foaf:Image" class="am-circle" src="/images/maojian.jpg" alt="毛剑"></a>
+          <span class="detail-span">毛剑</span> <br>
+          <span>猎豹移动</span>
+        </div>
+      </div>
         </div>
         
         <a name="media"></a>
         <div class="am-u-lg-12 am-u-md-6 am-u-sm-12 detail-mb">
           <h3 class="detail-h3">
             <i class="am-icon-chain am-icon-sm"></i>
-            合作伙伴
+            赞助商
           </h3>
           <div class="partner">
               <a href="http://www.qiniu.com/" target="_blank"><img alt="七牛" border="0" src="/static/images/qiniu.jpg" title="七牛"></a>
