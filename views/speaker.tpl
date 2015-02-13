@@ -71,8 +71,8 @@
 			</div>
 			<div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
 				<div class="am-u-md-10 center">
-					<a href="/user/yuheng"><img typeof="foaf:Image" class="am-circle" src="/images/yuheng.jpg" alt="雨衡"></a>
-					<span class="detail-span">雨衡</span> <br>
+					<a href="/user/yuheng"><img typeof="foaf:Image" class="am-circle" src="/images/yuheng.jpg" alt="雨痕"></a>
+					<span class="detail-span">雨痕</span> <br>
 					<span>yuheng</span>
 				</div>
 			</div>
