@@ -28,24 +28,24 @@
       <ul class="am-nav am-nav-pills am-topbar-nav">
         <li {{if .indexActive}} class="am-active"{{end}}><a href="/">{{i18n .Lang "home"}}</a></li>
         <li {{if .userActive}} class="am-active"{{end}}><a href="/speaker">{{i18n .Lang "speaker"}}</a></li>
-        <li ><a href="http://gopherchina.eventdove.com/">在线报名</a></li>
+        <li ><a href="http://gopherchina.eventdove.com/">{{i18n .Lang "register"}}</a></li>
         <li {{if .signinActive}} class="am-active"{{end}} class="am-dropdown" data-am-dropdown>
           <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
-            注册参会 <span class="am-icon-caret-down"></span>
+            {{i18n .Lang "venue"}} <span class="am-icon-caret-down"></span>
           </a>
           <ul class="am-dropdown-content">
-        	<li><a href="/venue">会场信息</a></li>
-        	<li><a href="/travel">参会路线</a></li>
-          <li><a href="/accommodation">酒店推荐</a></li>
+        	<li><a href="/venue">{{i18n .Lang "venuemap"}}</a></li>
+        	<li><a href="/travel">{{i18n .Lang "travel"}}</a></li>
+          <li><a href="/accommodation">{{i18n .Lang "accommodation"}}</a></li>
           </ul>
         </li>
         <li class="am-dropdown" data-am-dropdown>
           <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
-            大会合作 <span class="am-icon-caret-down"></span>
+            {{i18n .Lang "sponsor"}} <span class="am-icon-caret-down"></span>
           </a>
-          <ul class="am-dropdown-content">
-            <li><a href="/#media">合作媒体</a></li>
-            <li><a href="/#sponsors">合作伙伴</a></li>
+          <ul class="am-dropdown-content">          
+            <li><a href="/#sponsors">{{i18n .Lang "sponsor"}}</a></li>
+            <li><a href="/#media">{{i18n .Lang "supporters"}}</a></li>
           </ul>
         </li>
       </ul>

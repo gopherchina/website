@@ -37,29 +37,69 @@
             </thead>
             <tbody>
                 <tr>
-                    <td align="center" rowspan="3" valign="middle">4月24日<br>周六</td>
-                    <td>08:30-12:00</td>
+                    <td align="center" rowspan="9" valign="middle">4月24日<br>周六</td>
+                    <td>08:20-8:50</td>
+                    <td>入场报到</td>
+                </tr>
+                <tr>
+                    <td>08:50-9:00</td>
+                    <td>大会介绍</td>
+                </tr>
+                <tr>
+                    <td>09:00-10:00</td>
                     <td><a href="/user/chenmingda">陈明达,厦门真有趣信息科技有限公司</a>- Go语言在游戏项目的应用情况汇报</td>
                 </tr>
                 <tr>
-                    <td>13:00-15:00</td>
+                    <td>10:05-11:05</td>
                     <td><a href="/user/liuqi">刘奇,豌豆莢</a>- go在分布式系统开发中的应用</td>
                 </tr>
                 <tr >
-                    <td>15:15-17:00</td>
+                    <td>11:10-12:10</td>
+                    <td><a href="/user/xushiwei">许式伟,七牛</a>- 待定</td>
+                </tr>
+                <tr >
+                    <td>13:30-14:30</td>
+                    <td><a href="/user/maquanyi">马全一,dockerChina</a>- 使用 Docker 构建企业持续集成服务</td>
+                </tr>
+                <tr >
+                    <td>14:35-15:35</td>
                     <td><a href="/user/zhouyang">周洋,奇虎360</a>- go语言构建高并发分布式系统实践</td>
                 </tr>
+                <tr >
+                    <td>15:50-16：50</td>
+                    <td><a href="/user/yujun">余军</a>- 待定</td>                    
+                </tr>
+                <tr >
+                    <td>16:55-17：55</td>
+                    <td><a href="/user/zhouyang">华为工程师</a>- 待定</td>
+                </tr>
                 <tr>
-                    <td align="center" rowspan="3" valign="middle">4月25日<br>周日</td>
-                    <td>08:30-12:00</td>
+                    <td align="center" rowspan="7" valign="middle">4月25日<br>周日</td>
+                    <td>09:00-10:00</td>
+                    <td><a href="/user/core">Go team developer</a>- 待定</td>
+                </tr>
+                 <tr>
+                    <td>10:05-11:05</td>
+                    <td><a href="/user/gonghaohua">龚浩华,网宿科技</a>- 基于golang实现的p2p cache服务器</td>
+                </tr>
+                 <tr>
+                    <td>11:10-12:10</td>
                     <td><a href="/user/lisibao">李四宝,杭州佑软科技</a>- 在p2p网络构之上构建的应用生态----Leither</td>
                 </tr>
                  <tr>
-                    <td>13:00-15:00</td>
-                    <td><a href="/user/gonghaohua">龚浩华,网宿科技</a>- 基于golang实现的p2p cache服务器</td>
+                    <td>13:30-14:30</td>
+                    <td><a href="/user/yuhen">雨痕</a>- Go 1.4 runtime</td>
+                </tr>
+                 <tr>
+                    <td>14:35-15:35</td>
+                    <td><a href="/user/maojian">毛剑,猎豹移动</a>- golang在猎豹移动的应用</td>
+                </tr>
+                 <tr>
+                    <td>15:50-16:50</td>
+                    <td><a href="/user/xudaoli">徐倒立,七牛</a>- 待定</td>
                 </tr>
                 <tr >
-                    <td>15:15-17:00</td>
+                    <td>16:55-17:55</td>
                     <td><a href="/user/qleelulu">QLeelulu,广州舜飞</a>- GO在RTB实时竞价DSP广告系统中的应用</td>
                 </tr>
             </tbody>
@@ -81,7 +121,7 @@
             <div class="am-u-md-10 center">
             <a href="/user/maquanyi"><img class="am-circle" typeof="foaf:Image" src="/images/maquanyi.jpg" alt="" ></a>
             <span class="detail-p ">马全一</span> <br>
-              <span>Docker.cn创始人</span>
+              <span>Dockercn创始人</span>
             </div>
           </div>
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
@@ -135,7 +175,7 @@
           </h3>
 
           <p class="detail-p">
-            大会报名 <i class="am-icon-hand-o-right"></i> 在线支付（支付宝） <i class="am-icon-hand-o-right"></i>获取电子门票报名成功 <i class="am-icon-hand-o-right"></i> 持打印的电子门票现场签到（或凭彩信/短信） <i class="am-icon-hand-o-right"></i> 领取大会证件(胸卡)、餐券、大会资料等 [<a href="">详细</a>] 
+            大会报名 <i class="am-icon-hand-o-right"></i> 在线支付（支付宝） <i class="am-icon-hand-o-right"></i>获取电子门票报名成功 <i class="am-icon-hand-o-right"></i> 持打印的电子门票现场签到（或凭彩信/短信） <i class="am-icon-hand-o-right"></i> 领取大会入场券及礼品
           </p>
         </div>
         <a name="media"></a>
