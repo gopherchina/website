@@ -47,11 +47,11 @@
                 </tr>
                 <tr>
                     <td>09:00-10:00</td>
-                    <td><a href="/user/chenmingda">陈明达,厦门真有趣信息科技有限公司</a>- Go语言在游戏项目的应用情况汇报</td>
+                    <td><a href="/user/chenmingda">陈明达,厦门真有趣信息科技有限公司</a>- Go 语言在游戏项目的应用情况汇报</td>
                 </tr>
                 <tr>
                     <td>10:05-11:05</td>
-                    <td><a href="/user/liuqi">刘奇,豌豆莢</a>- go在分布式系统开发中的应用</td>
+                    <td><a href="/user/liuqi">刘奇,豌豆莢</a>- Go 在分布式系统开发中的应用</td>
                 </tr>
                 <tr >
                     <td>11:10-12:10</td>
@@ -59,11 +59,11 @@
                 </tr>
                 <tr >
                     <td>13:30-14:30</td>
-                    <td><a href="/user/maquanyi">马全一,dockerChina</a>- 使用 Docker 构建企业持续集成服务</td>
+                    <td><a href="/user/maquanyi">马全一,DockerChina</a>- 使用 Docker 构建企业持续集成服务</td>
                 </tr>
                 <tr >
                     <td>14:35-15:35</td>
-                    <td><a href="/user/zhouyang">周洋,奇虎360</a>- go语言构建高并发分布式系统实践</td>
+                    <td><a href="/user/zhouyang">周洋,奇虎360</a>- Go 语言构建高并发分布式系统实践</td>
                 </tr>
                 <tr >
                     <td>15:50-16：50</td>
@@ -80,11 +80,11 @@
                 </tr>
                  <tr>
                     <td>10:05-11:05</td>
-                    <td><a href="/user/gonghaohua">龚浩华,网宿科技</a>- 基于golang实现的p2p cache服务器</td>
+                    <td><a href="/user/gonghaohua">龚浩华,网宿科技</a>- 基于Go实现的 P2P Cache服务器</td>
                 </tr>
                  <tr>
                     <td>11:10-12:10</td>
-                    <td><a href="/user/lisibao">李四宝,杭州佑软科技</a>- 在p2p网络构之上构建的应用生态----Leither</td>
+                    <td><a href="/user/lisibao">李四宝,杭州佑软科技</a>- 在 P2P 网络构之上构建的应用生态----Leither</td>
                 </tr>
                  <tr>
                     <td>13:30-14:30</td>
@@ -92,15 +92,15 @@
                 </tr>
                  <tr>
                     <td>14:35-15:35</td>
-                    <td><a href="/user/maojian">毛剑,猎豹移动</a>- golang在猎豹移动的应用</td>
+                    <td><a href="/user/maojian">毛剑,猎豹移动</a>- Go 在猎豹移动的应用</td>
                 </tr>
                  <tr>
                     <td>15:50-16:50</td>
-                    <td><a href="/user/xudaoli">徐倒立,七牛</a>- Go打造百Gbps视频直播系统的挑战与实现</td>
+                    <td><a href="/user/xudaoli">徐倒立,七牛</a>- Go 打造百Gbps视频直播系统的挑战与实现</td>
                 </tr>
                 <tr >
                     <td>16:55-17:55</td>
-                    <td><a href="/user/qleelulu">QLeelulu,广州舜飞</a>- GO在RTB实时竞价DSP广告系统中的应用</td>
+                    <td><a href="/user/qleelulu">QLeelulu,广州舜飞</a>- Go 在 RTB 实时竞价 DSP 广告系统中的应用</td>
                 </tr>
             </tbody>
         </table>
