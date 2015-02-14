@@ -1,4 +1,5 @@
 .m120{width: 120px;}
+.detail-span span{margin: 0;padding: .8rem;}
 .get {
       background: #1E5B94;
       color: #fff;
@@ -30,6 +31,7 @@
 
     .detail-p {
       color: #7f8c8d;
+
     }
   .detail-span {
       color: #7f8c8d;
