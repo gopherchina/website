@@ -177,14 +177,14 @@
         <div class="am-u-md-10 center">
           <a href="/user/yujun"><img typeof="foaf:Image" class="am-circle m120" src="/images/yujun.jpg" alt="余军"></a>
           <div class="detail-span">余军</div>
-                  <span>上海拜服</span>
+                  <span>上海富麦</span>
         </div>
       </div>
       <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
         <div class="am-u-md-10 center">
           <a href="/user/yuhen"><img typeof="foaf:Image" class="am-circle m120" src="/images/yuhen.jpg" alt="雨痕"></a>
           <div class="detail-span">雨痕</div>
-                  <span>雨痕</span>
+                  <span>Go学习笔记</span>
         </div>
       </div>
       <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
@@ -205,7 +205,7 @@
           <div class="partner">
               <a href="http://www.qiniu.com/" target="_blank"><img alt="七牛" border="0" src="/static/images/qiniu.jpg" title="七牛"></a>
               <a href="http://www.huawei.com/" target="_blank"><img alt="华为" border="0" src="/static/images/huawei.png" title="华为"></a>
-               <a href="http://www.jd.com/" target="_blank"><img alt="京东" border="0" src="/static/images/jd.png" title="京东"></a>
+              <a href="http://www.jd.com/" target="_blank"><img alt="京东" border="0" src="/static/images/jd.png" title="京东"></a>
           </div>
         </div>
         <a name="sponsors"></a>
