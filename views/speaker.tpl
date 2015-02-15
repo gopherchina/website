@@ -90,7 +90,13 @@
 					<span>猎豹移动</span>
 				</div>
 			</div>
-			
+			<div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+				<div class="am-u-md-10 center">
+					<a href="/user/wangyang"><img typeof="foaf:Image" class="am-circle m120" src="/images/wangyang.jpg" alt="汪洋"></a>
+					<div class="detail-span">汪洋</div>
+					<span>华为</span>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

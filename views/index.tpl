@@ -71,7 +71,7 @@
                 </tr>
                 <tr >
                     <td>16:55-17：55</td>
-                    <td><a href="/user/zhouyang">华为工程师</a>- 待定</td>
+                    <td><a href="/user/wangyang">汪洋，华为</a>- Go 语言在 NFV 场景下的应用研究</td>
                 </tr>
                 <tr>
                     <td align="center" rowspan="7" valign="middle">4月26日<br>周日</td>
