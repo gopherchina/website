@@ -218,6 +218,7 @@
               <a href="http://www.infoq.com/cn" target="_blank"><img alt="InfoQ" border="0" src="/static/images/InfoQ.jpg" title="InfoQ"></a>
               <a href="http://www.csdn.net" target="_blank"><img alt="CSDN" border="0" src="/static/images/csdn.png" title="CSDN"></a>
               <a href="http://segmentfault.com/" target="_blank"><img alt="segmentfault" border="0" src="/static/images/segmentfault.png" title="segmentfault"></a>
+              <a href="http://teckparty.org/" target="_blank"><img alt="techparty" border="0" src="/static/images/techparty.jpg" title="techparty"></a>
 
           </div>
         </div>
