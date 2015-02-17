@@ -222,6 +222,7 @@
               <a href="http://www.osforce.cn/" target="_blank"><img alt="osforce" border="0" src="/static/images/osforce.jpg" title="osforce"></a>
               <a href="http://fequan.com/" target="_blank"><img alt="fequan" border="0" src="/static/images/fequan.jpg" title="fequan"></a>
               <a href="https://gitcafe.com" target="_blank"><img alt="gitcafe" border="0" src="/static/images/gitcafe.png" title="gitcafe"></a>
+              <a href="http://www.oschina.net/" target="_blank"><img alt="oschina" border="0" src="/static/images/oschina.png" title="oschina"></a>
 
           </div>
         </div>
