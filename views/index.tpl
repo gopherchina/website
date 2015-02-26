@@ -206,6 +206,7 @@
               <a href="http://www.qiniu.com/" target="_blank"><img alt="七牛" border="0" src="/static/images/qiniu.jpg" title="七牛"></a>
               <a href="http://www.huawei.com/" target="_blank"><img alt="华为" border="0" src="/static/images/huawei.png" title="华为"></a>
               <a href="http://www.jd.com/" target="_blank"><img alt="京东" border="0" src="/static/images/jd.png" title="京东"></a>
+              <a href="http://www.xd.com/" target="_blank"><img alt="心动游戏" border="0" src="/static/images/xd.png" title="心动游戏"></a>
           </div>
         </div>
         <a name="sponsors"></a>
