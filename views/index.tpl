@@ -73,6 +73,10 @@
                     <td>16:55-17：55</td>
                     <td><a href="/user/wangyang">汪洋，华为</a>- Go 语言在 NFV 场景下的应用研究</td>
                 </tr>
+                <tr >
+                    <td>20:30-22:00</td>
+                    <td>Gopher酒会, 七牛</td>
+                </tr>
                 <tr>
                     <td align="center" rowspan="7" valign="middle">4月26日<br>周日</td>
                     <td>09:00-10:00</td>
@@ -101,10 +105,6 @@
                 <tr >
                     <td>16:55-17:55</td>
                     <td><a href="/user/qleelulu">QLeelulu,广州舜飞</a>- Go 在 RTB 实时竞价 DSP 广告系统中的应用</td>
-                </tr>
-                <tr >
-                    <td>20:00-21:00</td>
-                    <td>Gopher酒会, 七牛</td>
                 </tr>
             </tbody>
         </table>
