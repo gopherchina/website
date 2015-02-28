@@ -37,7 +37,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td align="center" rowspan="9" valign="middle">4月25日<br>周六</td>
+                    <td align="center" rowspan="10" valign="middle">4月25日<br>周六</td>
                     <td>08:20-8:50</td>
                     <td>入场报到</td>
                 </tr>
@@ -101,6 +101,10 @@
                 <tr >
                     <td>16:55-17:55</td>
                     <td><a href="/user/qleelulu">QLeelulu,广州舜飞</a>- Go 在 RTB 实时竞价 DSP 广告系统中的应用</td>
+                </tr>
+                <tr >
+                    <td>20:00-21:00</td>
+                    <td>Gopher酒会, 七牛</td>
                 </tr>
             </tbody>
         </table>
@@ -207,6 +211,7 @@
               <a href="http://www.huawei.com/" target="_blank"><img alt="华为" border="0" src="/static/images/huawei.png" title="华为"></a>
               <a href="http://www.jd.com/" target="_blank"><img alt="京东" border="0" src="/static/images/jd.png" title="京东"></a>
               <a href="http://www.xd.com/" target="_blank"><img alt="心动游戏" border="0" src="/static/images/xd.png" title="心动游戏"></a>
+              <a href="https://coding.net/" target="_blank"><img alt="coding" border="0" src="/static/images/coding.png" title="coding"></a>
           </div>
         </div>
         <a name="sponsors"></a>
