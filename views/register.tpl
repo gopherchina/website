@@ -12,7 +12,7 @@
 			<div class="am-cf am-article">
 				<div class="am-u-lg-12 am-u-md-6 am-u-sm-12 ">
 		          <p class="detail-p">
-		            大会报名 <i class="am-icon-hand-o-right"></i> 在线支付（支付宝） <i class="am-icon-hand-o-right"></i>获取电子门票报名成功 <i class="am-icon-hand-o-right"></i> 持打印的电子门票现场签到（或凭彩信/短信） <i class="am-icon-hand-o-right"></i> 领取大会入场券及礼品  <span style="color:red">(包午餐)</span>
+		            大会报名 <i class="am-icon-hand-o-right"></i> 在线支付（支付宝） <i class="am-icon-hand-o-right"></i>获取电子门票报名成功 <span style="color:red">(门票不含发票)</span> <i class="am-icon-hand-o-right"></i> 持打印的电子门票现场签到（或凭彩信/短信） <i class="am-icon-hand-o-right"></i> 领取大会入场券及礼品  <span style="color:red">(包午餐)</span>
 		          </p>
 		        </div>
 				<div><iframe name='mgframe' id='mgframe' height='261px' width='100%' src='http://www.eventdove.com/business/getInnerTicket.do?siteInfoId=100669&moduleId=44&viewFlag=1&tc=promoteticket' frameborder='0' scrolling='no'></iframe>
