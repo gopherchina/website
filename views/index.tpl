@@ -221,14 +221,12 @@
             合作媒体
           </h3>
           <div class="partner">
-              <a href="http://www.infoq.com/cn" target="_blank"><img alt="InfoQ" border="0" src="/static/images/InfoQ.jpg" title="InfoQ"></a>
-              <a href="http://www.csdn.net/" target="_blank"><img alt="CSDN" border="0" src="/static/images/csdn.png" title="CSDN"></a>
-              <a href="http://segmentfault.com/" target="_blank"><img alt="segmentfault" border="0" src="/static/images/segmentfault.png" title="segmentfault"></a>
+              <a href="http://www.oschina.net/" target="_blank"><img alt="oschina" border="0" src="/static/images/oschina.png" title="oschina"></a>
+              <a href="http://www.imooc.com/" target="_blank"><img alt="imooc" border="0" src="/static/images/imooc.png" title="imooc"></a>
               <a href="http://techparty.org/" target="_blank"><img alt="techparty" border="0" src="/static/images/techparty.jpg" title="techparty"></a>
               <a href="http://www.osforce.cn/" target="_blank"><img alt="osforce" border="0" src="/static/images/osforce.jpg" title="osforce"></a>
               <a href="http://fequan.com/" target="_blank"><img alt="fequan" border="0" src="/static/images/fequan.jpg" title="fequan"></a>
               <a href="https://gitcafe.com" target="_blank"><img alt="gitcafe" border="0" src="/static/images/gitcafe.png" title="gitcafe"></a>
-              <a href="http://www.oschina.net/" target="_blank"><img alt="oschina" border="0" src="/static/images/oschina.png" title="oschina"></a>
 
           </div>
         </div>
