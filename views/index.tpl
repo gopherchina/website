@@ -120,7 +120,7 @@
           </h3>
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
-            <a href="/user/robert"><img class="am-circle m120" typeof="foaf:Image" src="/images/robert.png" alt="Robert Griesemer"></a>
+            <a href="/user/robert"><img class="am-circle m120" typeof="foaf:Image" src="/images/robert.jpeg" alt="Robert Griesemer"></a>
               <div class="detail-p">Robert Griesemer</div>
               <span>Go 语言作者之一</span>
             </div>

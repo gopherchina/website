@@ -5,7 +5,13 @@
 		<div class="am-u-lg-12 am-u-md-6 am-u-sm-12 detail-mb">
 			<h3 class="detail-h3">
 			</h3>
-
+			<div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+				<div class="am-u-md-10 center">
+					<a href="/user/robert"><img class="am-circle m120" typeof="foaf:Image" src="/images/robert.jpeg" alt="Robert Griesemer"></a>
+					<div class="detail-p">Robert Griesemer</div>
+					<span>Go作者之一</span>
+				</div>
+			</div>
 			<div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
 				<div class="am-u-md-10 center">
 					<a href="/user/xushiwei"><img class="am-circle m120" typeof="foaf:Image" src="/images/xushiwei.jpg" alt="许式伟"></a>
@@ -64,13 +70,6 @@
 			</div>
 			<div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
 				<div class="am-u-md-10 center">
-					<a href="/user/xudaoli"><img typeof="foaf:Image" class="am-circle m120" src="/images/xudaoli.jpg" alt="徐倒立"></a>
-					<div class="detail-span">徐倒立</div>
-					<span>七牛云存储</span>
-				</div>
-			</div>
-			<div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-				<div class="am-u-md-10 center">
 					<a href="/user/yujun"><img typeof="foaf:Image" class="am-circle m120" src="/images/yujun.jpg" alt="余军"></a>
 					<div class="detail-span">余军</div>
 					<span>上海拜服</span>
@@ -95,6 +94,20 @@
 					<a href="/user/wangyang"><img typeof="foaf:Image" class="am-circle m120" src="/images/wangyang.jpg" alt="汪洋"></a>
 					<div class="detail-span">汪洋</div>
 					<span>华为</span>
+				</div>
+			</div>
+			<div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+				<div class="am-u-md-10 center">
+					<a href="/user/xiabin"><img typeof="foaf:Image" class="am-circle m120" src="/images/xiabin.jpg" alt="夏彬"></a>
+					<div class="detail-span">夏彬</div>
+					<span>深之度</span>
+				</div>
+			</div>
+			<div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+				<div class="am-u-md-10 center">
+					<a href="/user/zhangchengyuan"><img typeof="foaf:Image" class="am-circle m120" src="/images/zhangchengyuan.png" alt="张成远"></a>
+					<div class="detail-span">张成远</div>
+					<span>京东</span>
 				</div>
 			</div>
 		</div>
