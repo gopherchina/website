@@ -55,7 +55,7 @@
                 </tr>
                 <tr >
                     <td>11:10-12:10</td>
-                    <td><a href="/user/xushiwei">许式伟,七牛</a>- 待定</td>
+                    <td><a href="/user/xushiwei">许式伟,七牛</a>- 七牛如何做HTTP服务测试</td>
                 </tr>
                 <tr >
                     <td>13:30-14:30</td>
@@ -78,9 +78,9 @@
                     <td>Gopher酒会, 七牛</td>
                 </tr>
                 <tr>
-                    <td align="center" rowspan="7" valign="middle">4月26日<br>周日</td>
+                    <td align="center" rowspan="8" valign="middle">4月26日<br>周日</td>
                     <td>09:00-10:00</td>
-                    <td><a href="/user/core">Go team developer</a>- 待定</td>
+                    <td><a href="/user/robert">Robert Griesemer</a>- Go Author</td>
                 </tr>
                  <tr>
                     <td>10:05-11:05</td>
@@ -91,20 +91,24 @@
                     <td><a href="/user/lisibao">李四宝,杭州佑软科技</a>- 在 P2P 网络构之上构建的应用生态----Leither</td>
                 </tr>
                  <tr>
-                    <td>13:30-14:30</td>
+                    <td>13:10-14:10</td>
                     <td><a href="/user/yuhen">雨痕</a>- Go 1.4 runtime</td>
                 </tr>
                  <tr>
-                    <td>14:35-15:35</td>
+                    <td>14:15-15:15</td>
                     <td><a href="/user/maojian">毛剑,猎豹移动</a>- Go 在猎豹移动的应用</td>
                 </tr>
                  <tr>
-                    <td>15:50-16:50</td>
-                    <td><a href="/user/xudaoli">徐倒立,七牛</a>- Go 打造百Gbps视频直播系统的挑战与实现</td>
+                    <td>15:20-16:20</td>
+                    <td><a href="/user/xiabin">夏彬,深之度</a>- Go在深度桌面环境中的应用</td>
                 </tr>
                 <tr >
-                    <td>16:55-17:55</td>
+                    <td>16:25-17:25</td>
                     <td><a href="/user/qleelulu">QLeelulu,广州舜飞</a>- Go 在 RTB 实时竞价 DSP 广告系统中的应用</td>
+                </tr>                
+                <tr >
+                    <td>17:30-18:30</td>
+                    <td><a href="/user/zhangchengyuan">张成远,京东</a>- Docker 原理与应用实践</td>
                 </tr>
             </tbody>
         </table>
@@ -114,6 +118,13 @@
             <i class="am-icon-users am-icon-sm"></i>
             演讲嘉宾
           </h3>
+          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+            <div class="am-u-md-10 center">
+            <a href="/user/robert"><img class="am-circle m120" typeof="foaf:Image" src="/images/robert.png" alt="Robert Griesemer"></a>
+              <div class="detail-p">Robert Griesemer</div>
+              <span>Go 语言作者之一</span>
+            </div>
+          </div>
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
             <a href="/user/xushiwei"><img class="am-circle m120" typeof="foaf:Image" src="/images/xushiwei.jpg" alt="许式伟"></a>
@@ -172,32 +183,25 @@
           </div>
           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
             <div class="am-u-md-10 center">
-              <a href="/user/xudaoli"><img typeof="foaf:Image" class="am-circle m120" src="/images/xudaoli.jpg" alt="徐倒立"></a>
-              <div class="detail-span">徐倒立</div>
-                      <span>七牛云存储</span>
+              <a href="/user/yujun"><img typeof="foaf:Image" class="am-circle m120" src="/images/yujun.jpg" alt="余军"></a>
+              <div class="detail-span">余军</div>
+                      <span>上海富麦</span>
             </div>
           </div>
-      <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-        <div class="am-u-md-10 center">
-          <a href="/user/yujun"><img typeof="foaf:Image" class="am-circle m120" src="/images/yujun.jpg" alt="余军"></a>
-          <div class="detail-span">余军</div>
-                  <span>上海富麦</span>
-        </div>
-      </div>
-      <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-        <div class="am-u-md-10 center">
-          <a href="/user/yuhen"><img typeof="foaf:Image" class="am-circle m120" src="/images/yuhen.jpg" alt="雨痕"></a>
-          <div class="detail-span">雨痕</div>
-                  <span>Go学习笔记</span>
-        </div>
-      </div>
-      <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-        <div class="am-u-md-10 center">
-          <a href="/user/maojian"><img typeof="foaf:Image" class="am-circle m120" src="/images/maojian.jpg" alt="毛剑"></a>
-          <div class="detail-span">毛剑</div>
-          <span>猎豹移动</span>
-        </div>
-      </div>
+          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+            <div class="am-u-md-10 center">
+              <a href="/user/yuhen"><img typeof="foaf:Image" class="am-circle m120" src="/images/yuhen.jpg" alt="雨痕"></a>
+              <div class="detail-span">雨痕</div>
+                      <span>Go学习笔记</span>
+            </div>
+          </div>
+          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+            <div class="am-u-md-10 center">
+              <a href="/user/maojian"><img typeof="foaf:Image" class="am-circle m120" src="/images/maojian.jpg" alt="毛剑"></a>
+              <div class="detail-span">毛剑</div>
+              <span>猎豹移动</span>
+            </div>
+          </div>
     </div>
         
         <a name="media"></a>
@@ -212,6 +216,7 @@
               <a href="http://www.jd.com/" target="_blank"><img alt="京东" border="0" src="/static/images/jd.png" title="京东"></a>
               <a href="http://www.xd.com/" target="_blank"><img alt="心动游戏" border="0" src="/static/images/xd.png" title="心动游戏"></a>
               <a href="https://coding.net/" target="_blank"><img alt="coding" border="0" src="/static/images/coding.png" title="coding"></a>
+              <a href="https://www.daocloud.io/" target="_blank"><img alt="DaoCloud" border="0" src="/static/images/daocloud.png" title="DaoCloud"></a>
           </div>
         </div>
         <a name="sponsors"></a>
