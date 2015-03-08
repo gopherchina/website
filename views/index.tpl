@@ -218,6 +218,7 @@
               <a href="https://coding.net/" target="_blank"><img alt="coding" border="0" src="/static/images/coding.png" title="coding"></a>
               <a href="https://www.daocloud.io/" target="_blank"><img alt="DaoCloud" border="0" src="/static/images/daocloud.png" title="DaoCloud"></a>
               <a href="http://weibo.com/mydreamlab" target="_blank"><img alt="DreamLab" border="0" src="/static/images/dreamlab.png" title="DreamLab"></a>
+              <a href="https://bearychat.com/" target="_blank"><img alt="bearychat" border="0" src="/static/images/bearychat.png" title="bearychat"></a>
           </div>
         </div>
         <a name="sponsors"></a>
