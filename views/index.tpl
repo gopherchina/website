@@ -37,7 +37,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td align="center" rowspan="10" valign="middle">4月25日<br>周六</td>
+                    <td align="center" rowspan="11" valign="middle">4月25日<br>周六</td>
                     <td>08:20-8:50</td>
                     <td>入场报到</td>
                 </tr>
