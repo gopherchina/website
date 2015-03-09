@@ -66,15 +66,15 @@
                     <td><a href="/user/zhouyang">周洋,奇虎360</a>- Go 语言构建高并发分布式系统实践</td>
                 </tr>
                 <tr >
-                    <td>15:30-16:35</td>
+                    <td>15:30-16:30</td>
                     <td><a href="/user/yujun">余军</a>- 动态资源管理和容器技术在金融行业的架构探索和明天</td>                    
                 </tr>
                 <tr >
-                    <td>16:40-17:40</td>
+                    <td>16:35-17:35</td>
                     <td><a href="/user/wangyang">汪洋，华为</a>- Go 语言在 NFV 场景下的应用研究</td>
                 </tr>
                 <tr >
-                    <td>17:45-18:45</td>
+                    <td>17:40-18:40</td>
                     <td><a href="/user/guofeng">郭峰，DaoCloud</a>- Go 在持续交付中的实践</td>
                 </tr>
                 <tr >
@@ -103,15 +103,15 @@
                     <td><a href="/user/maojian">毛剑,猎豹移动</a>- Go 在猎豹移动的应用</td>
                 </tr>
                  <tr>
-                    <td>15:20-16:20</td>
+                    <td>15:30-16:30</td>
                     <td><a href="/user/xiabin">夏彬,深之度</a>- Go在深度桌面环境中的应用</td>
                 </tr>
                 <tr >
-                    <td>16:25-17:25</td>
+                    <td>16:35-17:35</td>
                     <td><a href="/user/qleelulu">QLeelulu,广州舜飞</a>- Go 在 RTB 实时竞价 DSP 广告系统中的应用</td>
                 </tr>                
                 <tr >
-                    <td>17:30-18:30</td>
+                    <td>17:40-18:40</td>
                     <td><a href="/user/zhangchengyuan">张成远,京东</a>- Docker 原理与应用实践</td>
                 </tr>
             </tbody>
