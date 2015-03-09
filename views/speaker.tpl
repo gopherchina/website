@@ -72,7 +72,7 @@
 				<div class="am-u-md-12 center">
 					<a href="/user/yujun"><img typeof="foaf:Image" class="am-circle m120" src="/images/yujun.jpg" alt="余军"></a>
 					<div class="detail-span">余军</div>
-					<span>上海拜服</span>
+					<span>上海富麦</span>
 				</div>
 			</div>
 			<div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
