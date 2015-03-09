@@ -58,20 +58,24 @@
                     <td><a href="/user/xushiwei">许式伟,七牛</a>- 七牛如何做HTTP服务测试</td>
                 </tr>
                 <tr >
-                    <td>13:30-14:30</td>
+                    <td>13:10-14:10</td>
                     <td><a href="/user/maquanyi">马全一,DockerChina</a>- 使用 Docker 构建企业持续集成服务</td>
                 </tr>
                 <tr >
-                    <td>14:35-15:35</td>
+                    <td>14:15-15:15</td>
                     <td><a href="/user/zhouyang">周洋,奇虎360</a>- Go 语言构建高并发分布式系统实践</td>
                 </tr>
                 <tr >
-                    <td>15:50-16：50</td>
+                    <td>15:30-16:35</td>
                     <td><a href="/user/yujun">余军</a>- 动态资源管理和容器技术在金融行业的架构探索和明天</td>                    
                 </tr>
                 <tr >
-                    <td>16:55-17：55</td>
+                    <td>16:40-17:40</td>
                     <td><a href="/user/wangyang">汪洋，华为</a>- Go 语言在 NFV 场景下的应用研究</td>
+                </tr>
+                <tr >
+                    <td>17:45-18:45</td>
+                    <td><a href="/user/guofeng">郭峰，DaoCloud</a>- Go 在持续交付中的实践</td>
                 </tr>
                 <tr >
                     <td>20:30-22:00</td>
@@ -202,6 +206,34 @@
               <span>猎豹移动</span>
             </div>
           </div>
+          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+        <div class="am-u-md-12 center">
+          <a href="/user/wangyang"><img typeof="foaf:Image" class="am-circle m120" src="/images/wangyang.jpg" alt="汪洋"></a>
+          <div class="detail-span">汪洋</div>
+          <span>华为</span>
+        </div>
+      </div>
+      <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+        <div class="am-u-md-12 center">
+          <a href="/user/xiabin"><img typeof="foaf:Image" class="am-circle m120" src="/images/xiabin.jpg" alt="夏彬"></a>
+          <div class="detail-span">夏彬</div>
+          <span>深之度</span>
+        </div>
+      </div>
+      <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+        <div class="am-u-md-12 center">
+          <a href="/user/zhangchengyuan"><img typeof="foaf:Image" class="am-circle m120" src="/images/zhangchengyuan.png" alt="张成远"></a>
+          <div class="detail-span">张成远</div>
+          <span>京东</span>
+        </div>
+      </div>
+      <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+        <div class="am-u-md-12 center">
+          <a href="/user/guofeng"><img typeof="foaf:Image" class="am-circle m120" src="/images/guofeng.png" alt="郭峰"></a>
+          <div class="detail-span">郭峰</div>
+          <span>DaoCloud</span>
+        </div>
+      </div>
     </div>
         
         <a name="media"></a>

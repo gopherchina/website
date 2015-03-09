@@ -110,6 +110,13 @@
 					<span>京东</span>
 				</div>
 			</div>
+			<div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+				<div class="am-u-md-12 center">
+					<a href="/user/guofeng"><img typeof="foaf:Image" class="am-circle m120" src="/images/guofeng.png" alt="郭峰"></a>
+					<div class="detail-span">郭峰</div>
+					<span>DaoCloud</span>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
