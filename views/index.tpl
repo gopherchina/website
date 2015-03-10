@@ -10,7 +10,7 @@
       </p>
 
       <p>
-        <a href="https://www.google.com/maps/place/%E6%B5%A6%E8%BD%AF%E5%A4%A7%E5%8E%A6/@31.202522,121.604077,15z/data=!4m2!3m1!1s0x0:0x357c6c0c85ab5ad2?sa=X&ei=uMv-VJeBG8itmAW_rYGYCA&ved=0CIYBEPwSMAs" class="am-btn am-btn-sm get-btn">上海市浦东新区博云路2号 MAP</a>
+        <a href="https://www.google.com/maps/place/%E6%B5%A6%E8%BD%AF%E5%A4%A7%E5%8E%A6/@31.202522,121.604077,15z/data=!4m2!3m1!1s0x0:0x357c6c0c85ab5ad2?sa=X&ei=uMv-VJeBG8itmAW_rYGYCA&ved=0CIYBEPwSMAs" class="am-btn am-btn-sm get-btn">上海市浦东新区博云路2号</a>
       </p>
     </div>
   </div>
