@@ -84,7 +84,7 @@
                 <tr>
                     <td align="center" rowspan="8" valign="middle">4月26日<br>周日</td>
                     <td>09:00-10:00</td>
-                    <td><a href="/user/robert">Robert Griesemer</a>- Go Author</td>
+                    <td><a href="/user/robert">Robert Griesemer</a>- gofmt 的文化演变</td>
                 </tr>
                  <tr>
                     <td>10:05-11:05</td>
