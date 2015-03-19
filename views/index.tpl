@@ -248,7 +248,7 @@
               <a href="http://www.jd.com/" target="_blank"><img alt="京东" border="0" src="/static/images/jd.png" title="京东"></a>
               <a href="http://www.xd.com/" target="_blank"><img alt="心动游戏" border="0" src="/static/images/xd.png" title="心动游戏"></a>
               <a href="https://coding.net/" target="_blank"><img alt="coding" border="0" src="/static/images/coding.png" title="coding"></a>
-              <a href="https://www.daocloud.io/" target="_blank"><img alt="DaoCloud" border="0" src="/static/images/daocloud.png" title="DaoCloud"></a>
+              <a href="https://www.daocloud.io/" target="_blank"><img alt="DaoCloud" border="0" src="/static/images/daocloud.jpg" title="DaoCloud"></a>
               <a href="http://weibo.com/mydreamlab" target="_blank"><img alt="DreamLab" border="0" src="/static/images/dreamlab.png" title="DreamLab"></a>
               <a href="https://bearychat.com/" target="_blank"><img alt="bearychat" border="0" src="/static/images/bearychat.png" title="bearychat"></a><a href="http://www.ituring.com.cn/" target="_blank"><img alt="图灵" border="0" src="/static/images/tuling.jpg" title="图灵"></a>
           </div>
