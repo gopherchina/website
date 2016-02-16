@@ -1,61 +1,63 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-  <meta charset="UTF-8">
-  <title>{{.Title}}</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="format-detection" content="telephone=no">
-  <meta name="renderer" content="webkit">
-  <meta http-equiv="Cache-Control" content="no-siteapp"/>
-  <link rel="stylesheet" href="/static/css/amazeui.min.css"/>
-  <link rel="stylesheet" href="/static/css/index.css"/>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>GopherChina</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="/static/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="/static/css/main.css">
 </head>
+<body data-spy="scroll" data-target="#site-nav">
+    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
 
-<body>
-<header  class="am-topbar am-topbar-fixed-top">
-  <div class="am-container">
-    <h1 class="am-topbar-brand">
-      <a href="/">Gopher China</a>
-    </h1>
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="#">
+                        
+                        <!-- logo image  -->
+                        <img src="/static/images/logo.png" alt="Logo">
 
-    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only"
-            data-am-collapse="{target: '#collapse-head'}"><span class="am-sr-only">导航切换</span> <span
-        class="am-icon-bars"></span></button>
+                        GopherChina 2016
+                    </a>
+                </div>
 
-    <div class="am-collapse am-topbar-collapse" id="collapse-head">
-      <ul class="am-nav am-nav-pills am-topbar-nav">
-        <li {{if .indexActive}} class="am-active"{{end}}><a href="/">{{i18n .Lang "home"}}</a></li>
-        <li {{if .userActive}} class="am-active"{{end}}><a href="/speaker">{{i18n .Lang "speaker"}}</a></li>
-        <li {{if .regActive}} class="am-active"{{end}}><a href="/register">{{i18n .Lang "register"}}</a></li>
-        <li {{if .signinActive}} class="am-active"{{end}} class="am-dropdown" data-am-dropdown>
-          <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
-            {{i18n .Lang "venue"}} <span class="am-icon-caret-down"></span>
-          </a>
-          <ul class="am-dropdown-content">
-        	<li><a href="/venue">{{i18n .Lang "venuemap"}}</a></li>
-        	<li><a href="/travel">{{i18n .Lang "travel"}}</a></li>
-          <li><a href="/accommodation">{{i18n .Lang "accommodation"}}</a></li>
-          </ul>
-        </li>
-        <li class="am-dropdown" data-am-dropdown>
-          <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
-            {{i18n .Lang "sponsor"}} <span class="am-icon-caret-down"></span>
-          </a>
-          <ul class="am-dropdown-content">          
-            <li><a href="/#sponsors">{{i18n .Lang "sponsor"}}</a></li>
-            <li><a href="/#media">{{i18n .Lang "supporters"}}</a></li>
-          </ul>
-        </li>
-      </ul>
-	<div class="am-topbar-right" style="margin-top:5px">
-		<select  data-am-selected="{btnWidth:120}" id="lang">
-		{{range .RestLangs}}
-		  <option {{if eq $.Lang .Lang}}selected{{end}} class="lang-changed" value="{{.Lang}}">{{i18n $.Lang .Name}}</option>
-        {{end}}
-		</select>
-      </div>
-    </div>
-  </div>
-</header>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <li class="active"><a data-scroll href="#">{{i18n .Lang "home"}}</a></li>
+                    <li><a data-scroll href="#about">{{i18n .Lang "about"}}</a></li>
+                    <li><a data-scroll href="#speakers">{{i18n .Lang "speaker"}}</a></li>              
+                    <li><a data-scroll href="#schedule">Schedule</a></li>                  
+                    <li><a data-scroll href="#partner">{{i18n .Lang "sponsor"}}</a></li>                  
+                    <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
+                    <li><a data-scroll href="#faq">FAQ</a></li>
+                    <li><a target="_blank" href="http://www.gopherchina.org/2015">2015</a></li>
+                     <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{i18n $.Lang .Lang}} <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        {{range .RestLangs}}
+                        <li><a href="#" class="lang-changed" data-lang="{{.Lang}}">{{i18n $.Lang .Name}}</a></li>
+                        {{end}}
+                      </ul>
+                    </li>
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>

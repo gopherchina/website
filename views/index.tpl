@@ -1,244 +1,457 @@
 {{template "base/header.html" .}}
 
-<div class="get">
-  <div class="am-g">
-    <div class="am-u-lg-12">
-      <img src="/static/images/gopherconf.png">
-      <h1 class="get-title">Gopher China 2015 上海 大会 欢迎您!!</h1>
-      <p>
-        时间：2015年4月25-26日 地点：中国·上海市浦东软件大厦
-      </p>
+<header id="site-header" class="site-header valign-center"> 
+        <div class="intro">
 
-      <p>
-        <a href="/register" class="am-btn am-btn-sm get-btn">在线报名</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="detail">
-  <div class="am-g am-container">
-    <div class="am-u-lg-12">
-      <p class="detail-p"></p>
-      <div class="am-g">
-        <div class="am-u-lg-12 am-u-md-12 am-u-sm-12 detail-mb">
-
-          <h3 class="detail-h3">
-            <i class="am-icon-calendar am-icon-sm"></i>
-            会议日程
-          </h3>
-          <table class="am-table">
-            <thead>
-                <tr>
-                    <th class="am-u-sm-offset-1">日期</th>
-                    <th>时间</th>
-                    <th>日程安排</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td align="center" rowspan="10" valign="middle">4月25日<br>周六</td>
-                    <td>08:20-8:50</td>
-                    <td>入场报到</td>
-                </tr>
-                <tr>
-                    <td>08:50-9:00</td>
-                    <td>大会介绍</td>
-                </tr>
-                <tr>
-                    <td>09:00-10:00</td>
-                    <td><a href="/user/chenmingda">陈明达,厦门真有趣信息科技有限公司</a>- Go 语言在游戏项目的应用情况汇报</td>
-                </tr>
-                <tr>
-                    <td>10:05-11:05</td>
-                    <td><a href="/user/liuqi">刘奇,豌豆莢</a>- Go 在分布式系统开发中的应用</td>
-                </tr>
-                <tr >
-                    <td>11:10-12:10</td>
-                    <td><a href="/user/xushiwei">许式伟,七牛</a>- 七牛如何做HTTP服务测试</td>
-                </tr>
-                <tr >
-                    <td>13:30-14:30</td>
-                    <td><a href="/user/maquanyi">马全一,DockerChina</a>- 使用 Docker 构建企业持续集成服务</td>
-                </tr>
-                <tr >
-                    <td>14:35-15:35</td>
-                    <td><a href="/user/zhouyang">周洋,奇虎360</a>- Go 语言构建高并发分布式系统实践</td>
-                </tr>
-                <tr >
-                    <td>15:50-16：50</td>
-                    <td><a href="/user/yujun">余军</a>- 动态资源管理和容器技术在金融行业的架构探索和明天</td>                    
-                </tr>
-                <tr >
-                    <td>16:55-17：55</td>
-                    <td><a href="/user/wangyang">汪洋，华为</a>- Go 语言在 NFV 场景下的应用研究</td>
-                </tr>
-                <tr >
-                    <td>20:30-22:00</td>
-                    <td>Gopher酒会, 七牛</td>
-                </tr>
-                <tr>
-                    <td align="center" rowspan="8" valign="middle">4月26日<br>周日</td>
-                    <td>09:00-10:00</td>
-                    <td><a href="/user/robert">Robert Griesemer</a>- Go Author</td>
-                </tr>
-                 <tr>
-                    <td>10:05-11:05</td>
-                    <td><a href="/user/gonghaohua">龚浩华,网宿科技</a>- 基于Go实现的 P2P Cache服务器</td>
-                </tr>
-                 <tr>
-                    <td>11:10-12:10</td>
-                    <td><a href="/user/lisibao">李四宝,杭州佑软科技</a>- 在 P2P 网络构之上构建的应用生态----Leither</td>
-                </tr>
-                 <tr>
-                    <td>13:10-14:10</td>
-                    <td><a href="/user/yuhen">雨痕</a>- Go 1.4 runtime</td>
-                </tr>
-                 <tr>
-                    <td>14:15-15:15</td>
-                    <td><a href="/user/maojian">毛剑,猎豹移动</a>- Go 在猎豹移动的应用</td>
-                </tr>
-                 <tr>
-                    <td>15:20-16:20</td>
-                    <td><a href="/user/xiabin">夏彬,深之度</a>- Go在深度桌面环境中的应用</td>
-                </tr>
-                <tr >
-                    <td>16:25-17:25</td>
-                    <td><a href="/user/qleelulu">QLeelulu,广州舜飞</a>- Go 在 RTB 实时竞价 DSP 广告系统中的应用</td>
-                </tr>                
-                <tr >
-                    <td>17:30-18:30</td>
-                    <td><a href="/user/zhangchengyuan">张成远,京东</a>- Docker 原理与应用实践</td>
-                </tr>
-            </tbody>
-        </table>
-        </div>
-        <div class="am-u-lg-12 am-u-md-6 am-u-sm-12 detail-mb">
-          <h3 class="detail-h3">
-            <i class="am-icon-users am-icon-sm"></i>
-            演讲嘉宾
-          </h3>
-          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-            <div class="am-u-md-12 center">
-            <a href="/user/robert"><img class="am-circle m120" typeof="foaf:Image" src="/images/robert.jpeg" alt="Robert Griesemer"></a>
-              <div class="detail-p">Robert Griesemer</div>
-              <span>Go 语言作者之一</span>
-            </div>
-          </div>
-          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-            <div class="am-u-md-12 center">
-            <a href="/user/xushiwei"><img class="am-circle m120" typeof="foaf:Image" src="/images/xushiwei.jpg" alt="许式伟"></a>
-              <div class="detail-p">许式伟</div>
-              <span>七牛云存储CEO</span>
-            </div>
-          </div>
-          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-            <div class="am-u-md-12 center">
-            <a href="/user/maquanyi"><img class="am-circle m120" typeof="foaf:Image" src="/images/maquanyi.jpg" alt="马全一" ></a>
-            <div class="detail-p ">马全一</div>
-              <span>Dockercn创始人</span>
-            </div>
-          </div>
-          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-            <div class="am-u-md-12 center">
-            <a href="/user/chenmingda"><img class="am-circle m120" typeof="foaf:Image" src="/static/img/chenmingda.png" alt="陈明达"></a>
-              <div class="detail-span">陈明达</div>
-              <span>厦门真有趣科技</span>
-            </div>
-          </div>
-          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-            <div class="am-u-md-12 center">
-            <a href="/user/zhouyang"><img class="am-circle m120" typeof="foaf:Image" src="/static/img/zhouyang.jpg" alt="周洋"></a>
-              <div class="detail-span">周洋</div>
-              <span>奇虎360</span>
-            </div>
-          </div>
-          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-            <div class="am-u-md-12 center">
-            <a href="/user/liuqi"><img class="am-circle m120" typeof="foaf:Image" src="/static/img/liuqi.png" alt="刘奇"></a>
-               <div class="detail-span">刘奇</div> 
-              <span>豌豆荚</span>
-            </div>
-          </div>
-           <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-            <div class="am-u-md-12 center">
-            <a href="/user/gonghaohua"><img class="am-circle m120" typeof="foaf:Image" src="/static/img/gonghaohua.jpg" alt="龚浩华"></a>
-              <div class="detail-span">龚浩华</div>
-              <span>网宿科技</span>
-            </div>
-          </div>
-          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-            <div class="am-u-md-12 center">
-            <a href="/user/qleelulu"><img class="am-circle m120" typeof="foaf:Image" src="/static/img/qleelulu.jpg" alt="QLeelulu"></a>
-              <div class="detail-span">QLeelulu</div>
-              <span>广州舜飞</span>
-            </div>
-          </div>
-          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-            <div class="am-u-md-12 center">
-            <a href="/user/lisibao"><img class="am-circle m120" typeof="foaf:Image" src="/static/img/lisibao.jpg" alt="李四保"></a>
-               <div class="detail-span">李四保</div>
-              <span>杭州佑软科技</span>
-            </div>
-          </div>
-          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-            <div class="am-u-md-12 center">
-              <a href="/user/yujun"><img typeof="foaf:Image" class="am-circle m120" src="/images/yujun.jpg" alt="余军"></a>
-              <div class="detail-span">余军</div>
-                      <span>上海富麦</span>
-            </div>
-          </div>
-          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-            <div class="am-u-md-12 center">
-              <a href="/user/yuhen"><img typeof="foaf:Image" class="am-circle m120" src="/images/yuhen.jpg" alt="雨痕"></a>
-              <div class="detail-span">雨痕</div>
-                      <span>Go学习笔记</span>
-            </div>
-          </div>
-          <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
-            <div class="am-u-md-12 center">
-              <a href="/user/maojian"><img typeof="foaf:Image" class="am-circle m120" src="/images/maojian.jpg" alt="毛剑"></a>
-              <div class="detail-span">毛剑</div>
-              <span>猎豹移动</span>
-            </div>
-          </div>
-    </div>
+            <h2>25 April, 2016 / 中国 北京</h2>
+            
+            <h1>Gopher China 2016</h1>
+            
+            <p>Second &amp; Largest Conference</p>
+            
+            <a class="btn btn-white" data-scroll href="#registration">Register Now</a>
         
-        <a name="media"></a>
-        <div class="am-u-lg-12 am-u-md-6 am-u-sm-12 detail-mb">
-          <h3 class="detail-h3">
-            <i class="am-icon-chain am-icon-sm"></i>
-            赞助商
-          </h3>
-          <div class="partner">
-              <a href="http://www.qiniu.com/" target="_blank"><img alt="七牛" border="0" src="/static/images/qiniu.jpg" title="七牛"></a>
-              <a href="http://www.huawei.com/" target="_blank"><img alt="华为" border="0" src="/static/images/huawei.png" title="华为"></a>
-              <a href="http://www.jd.com/" target="_blank"><img alt="京东" border="0" src="/static/images/jd.png" title="京东"></a>
-              <a href="http://www.xd.com/" target="_blank"><img alt="心动游戏" border="0" src="/static/images/xd.png" title="心动游戏"></a>
-              <a href="https://coding.net/" target="_blank"><img alt="coding" border="0" src="/static/images/coding.png" title="coding"></a>
-              <a href="https://www.daocloud.io/" target="_blank"><img alt="DaoCloud" border="0" src="/static/images/daocloud.png" title="DaoCloud"></a>
-              <a href="http://weibo.com/mydreamlab" target="_blank"><img alt="DreamLab" border="0" src="/static/images/dreamlab.png" title="DreamLab"></a>
-              <a href="https://bearychat.com/" target="_blank"><img alt="bearychat" border="0" src="/static/images/bearychat.png" title="bearychat"></a>
-          </div>
         </div>
-        <a name="sponsors"></a>
-        <div class="am-u-lg-12 am-u-md-6 am-u-sm-12 detail-mb">
-          <h3 class="detail-h3">
-            <i class="am-icon-chain am-icon-sm"></i>
-            合作媒体
-          </h3>
-          <div class="partner">
-              <a href="http://www.oschina.net/" target="_blank"><img alt="oschina" border="0" src="/static/images/oschina.png" title="oschina"></a>
-              <a href="http://www.imooc.com/" target="_blank"><img alt="imooc" border="0" src="/static/images/imooc.png" title="imooc"></a>
-              <a href="http://techparty.org/" target="_blank"><img alt="techparty" border="0" src="/static/images/techparty.jpg" title="techparty"></a>
-              <a href="http://www.osforce.cn/" target="_blank"><img alt="osforce" border="0" src="/static/images/osforce.jpg" title="osforce"></a>
-              <a href="http://fequan.com/" target="_blank"><img alt="fequan" border="0" src="/static/images/fequan.jpg" title="fequan"></a>
-              <a href="https://gitcafe.com" target="_blank"><img alt="gitcafe" border="0" src="/static/images/gitcafe.png" title="gitcafe"></a>
+    </header>
 
-          </div>
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <h3 class="section-title">About Us</h3>
+
+                    <p>You've inspired new consumer, racked up click-thru's, blown-up brand enes. We can't give you back the weekends you worked, or erase the pain ebeing forced to make the logo bigger. But if you submit your best work we ajusts might be able to give the chance to show you best digital marketing.</p>
+
+                    <figure>
+                        <img alt="" class="img-responsive" src="/static/images/about-us.jpg">
+                    </figure>
+
+                </div><!-- /.col-sm-6 -->
+
+                <div class="col-sm-6">
+
+                    <h3 class="section-title multiple-title">What is Our Goal?</h3>
+
+                    <p>You've inspired new consumer, racked up click-thru's, blown-up brand enes. We can't give you back the weekends you worked, or erase the pain ebeing forced to make the logo bigger. But if you submit your best work we ajusts might be able to give the chance to show you best digital marketing.</p>
+
+                    <ul class="list-arrow-right">
+
+                        <li>Learn from the best Asian Social Media Experts &amp; Case Studies</li>
+                        <li>Have dedicated 2-to-1 meetings with the experts</li>
+                        <li>Reach more consumers for less by learning new digital media skills</li>
+                        <li>Save money when spending in online advertising</li>
+                    
+                    </ul>
+
+                </div><!-- /.col-sm-6 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section>
+
+    <section id="facts" class="section bg-image-1 facts text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+
+                    <i class="ion-ios-calendar"></i>
+                    <h3>2015<br>June 25</h3>
+                
+                </div>
+                <div class="col-sm-3">
+
+                    <i class="ion-ios-location"></i>
+                    <h3>California<br>USA</h3>
+                
+                </div>
+                <div class="col-sm-3">
+
+                    <i class="ion-pricetags"></i>
+                    <h3>150<br>Tickets</h3>
+                
+                </div>
+                <div class="col-sm-3">
+                
+                    <i class="ion-speakerphone"></i>
+                    <h3>06<br>Speakers</h3>
+                
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+    <section id="speakers" class="section speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <h3 class="section-title">Speakers</h3>
+                
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="speaker">
+
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="/static/images/speakers/speaker-1.jpg">
+                        </figure>
+
+                        <h4>Jhon Smith</h4>
+
+                        <p>CEO of Peren</p>
+
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        </ul>
+
+                    </div><!-- /.speaker -->
+                </div><!-- /.col-md-4 -->
+
+                <div class="col-md-4">
+                    <div class="speaker">
+
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="/static/images/speakers/speaker-2.jpg">
+                        </figure>
+
+                        <h4>Jhon Smith</h4>
+
+                        <p>CEO of Peren</p>
+
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        </ul>
+
+                    </div><!-- /.speaker -->
+                </div><!-- /.col-md-4 -->
+
+                <div class="col-md-4">
+                    <div class="speaker">
+
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="/static/images/speakers/speaker-3.jpg">
+                        </figure>
+
+                        <h4>Jhon Smith</h4>
+
+                        <p>CEO of Peren</p>
+
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        </ul>
+
+                    </div><!-- /.speaker -->
+                </div><!-- /.col-md-4 -->
+            </div><!-- /.row -->
+
+            <div class="row">
+                <div class="col-md-4">
+
+                    <div class="speaker">
+
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="/static/images/speakers/speaker-4.jpg">
+                        </figure>
+
+                        <h4>Jhon Smith</h4>
+
+                        <p>CEO of Peren</p>
+
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+
+                    <div class="speaker">
+
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="/static/images/speakers/speaker-5.jpg">
+                        </figure>
+
+                        <h4>Jhon Smith</h4>
+
+                        <p>CEO of Peren</p>
+
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="/static/images/speakers/speaker-6.jpg">
+                        </figure>
+                        <h4>Jhon Smith</h4>
+                        <p>CEO of Peren</p>
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
+    </section>
+
+
+    <section id="contribution" class="section bg-image-2 contribution">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-uppercase mt0 font-400">Submit Your Contribution Work</h3>
+                    
+                    <p>You've inspired new consumer, racked up click-thru's, blown-up brand awareness. We can't give you back the weekends you worked, or erase the pain of being forced to make the logo bigger. But if you submit your best work.</p>
+
+                    <a class="btn btn-white" href="#">Submit</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="section schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Event Schedule</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box">
+                        <div class="time">
+                            <time datetime="09:00">09:00 am</time> - <time datetime="22:00">10:00 am</time>
+                        </div>
+                        <h3>Welcome and intro</h3>
+                        <p>Mustafizur Khan, SD Asia</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box">
+                        <div class="time">
+                            <time datetime="10:00">10:00 am</time> - <time datetime="22:00">10:00 am</time>
+                        </div>
+                        <h3>Tips and share</h3>
+                        <p>Mustafizur Khan, SD Asia</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box">
+                        <div class="time">
+                            <time datetime="10:00">10:00 am</time> - <time datetime="22:00">10:00 am</time>
+                        </div>
+                        <h3>View from the top</h3>
+                        <p>Mustafizur Khan, SD Asia</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="partner" class="section partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Event Partner</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-1"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-2"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-3"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-4"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-5"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-6"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-7"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-8"></a>
+                </div>
+            </div>   
+    </section>
+
+    <section id="faq" class="section faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Event FAQs</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> What is the price of the ticket ?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <h3>Hello</h3>
+                                    <p>Lorem Ipsum</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> What is included in my ticket ?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">Hello</div>
+                            </div>
+                        </div>
+  
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Office address ?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">Hello</div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFour">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> How should I dress ?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body">Hello</div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFive">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> I have specific questions that are not addressed here. Who can help me ?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="panel-body">Hello</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="photos" class="section photos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Photos</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="grid">
+                        
+                        <li class="grid-item grid-item-sm-6">
+                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-1.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-2.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-3.jpg">
+                        </li>
+                    
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-5.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-6.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-7.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-8.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-2.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-3.jpg">
+                        </li>
+                    </ul>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+    <section id="location" class="section location">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3 class="section-title">Event Location</h3>
+                    <address>
+                        <p>Eardenia<br> The Grand Hall<br> House # 08, Road #52, Street<br> Phone: +1159t3764<br> Email: example@mail.com</p>
+                    </address>
+                </div>
+                <div class="col-sm-9">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96706.50013548559!2d-78.9870674333782!3d40.76030630398601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sbd!4v1436299406518" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
 {{template "base/footer.html" .}}

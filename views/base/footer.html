@@ -1,31 +1,24 @@
+ <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="site-info">© 2016 <a href="http://www.gopherchina.org" target="_blank">Gopher China组委会</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-<footer class="footer">
-  <p>© 2015 <a href="http://www.gopherchina.org" target="_blank">Gopher China组委会</a></p>
-</footer>
-
-<!--[if lt IE 9]>
-<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
-<script src="/js/polyfill/rem.min.js"></script>
-<script src="/js/polyfill/respond.min.js"></script>
-<script src="/js/amazeui.legacy.js"></script>
-<![endif]-->
-
-<!--[if (gte IE 9)|!(IE)]><!-->
-<script src="/static/js/jquery.min.js"></script>
-<script src="/static/js/amazeui.min.js"></script>
-<!--<![endif]-->
- <script type="text/javascript">
-		var init =true
-        $(document).on('change', '#lang', function(){
-        	if (!init) {
-        		var $e = $(this);
-	            var lang = $e.val();
-	            $.AMUI.utils.cookie.set('lang', lang,365,"/","");
-	            window.location.reload();
-        	}else{
-        		init = false
-        	}
+    <!-- script -->
+    <script src="/static/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/static/bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/cookie.js"></script>
+    <script type="text/javascript">
+        $(document).on('click', '.lang-changed', function(){
+            var lang = $(this).data("lang");
+            $.cookie('lang', lang, { expires: 365, path: '/' });
+            window.location.reload();
         });
     </script>
 </body>
