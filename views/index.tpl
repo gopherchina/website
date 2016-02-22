@@ -5,19 +5,19 @@
 
 {{if eq .Lang "en-US"}}
             <h2>16 April, 2016 / Beijing China</h2>
-            
+
             <h1>Gopher China 2016</h1>
-            
+
             <p>Gopher's biggest party</p>
-            
+
             <a class="btn btn-white" data-scroll href="#register">Register Now</a>
-        
+
 {{else}}
             <h2>中国 北京 / 2016-04-16 09:00 ~ 2016-04-17 18:00</h2>
 
             <h1>第二届 Gopher China 大会</h1>
 
-            <p>Go爱好者的巨大party</p>
+            <p>地址: 东城区 工体北路新中西街8号 亚洲大酒店</p>
 
             <a class="btn btn-white" data-scroll href="#register">注册报名</a>
 {{end}}
@@ -179,7 +179,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td align="center" rowspan="11" valign="middle">4月16日<br>周六</td>
+                    <td align="center" rowspan="12" valign="middle">4月16日<br>周六</td>
                     <td>08:20-8:50</td>
                     <td>入场报到</td>
                 </tr>
@@ -209,7 +209,11 @@
                 </tr>
                 <tr>
                     <td>14:35-15:35</td>
-                    <td>Marcel,Google     Go如何解决i18s和i13n问题</td>                    
+                    <td>Marcel,Google     Go如何解决i18s和i13n问题</td>
+                </tr>
+                <tr>
+                    <td>15:35-15:55</td>
+                    <td>茶歇</td>
                 </tr>
                 <tr>
                     <td>16:00-17:00</td>
@@ -224,7 +228,7 @@
                     <td>Gopher技术沙龙party, 七牛和DaoCloud联合赞助举办</td>
                 </tr>
                 <tr>
-                    <td align="center" rowspan="8" valign="middle">4月17日<br>周日</td>
+                    <td align="center" rowspan="9" valign="middle">4月17日<br>周日</td>
                     <td>09:00-10:00</td>
                     <td>Dave Cheney        How to Write high performance application</td>
                 </tr>
@@ -243,15 +247,19 @@
                  <tr>
                     <td>14:15-15:15</td>
                     <td>高步双,小米         Go在小米网运维平台的应用与实践</td>
-                </tr>
+                 </tr>
                  <tr>
-                    <td>15:30-16:30</td>
+                     <td>15:15-15:35</td>
+                     <td>茶歇</td>
+                 </tr>
+                 <tr>
+                    <td>15:40-16:40</td>
                     <td>孙建良,网易         Go在网易广域网上传加速系统中的应用</td>
                 </tr>
                 <tr>
-                    <td>16:35-17:35</td>
+                    <td>16:45-17:45</td>
                     <td>Paul Dix,fluxedb   待定</td>
-                </tr>                
+                </tr>
             </tbody>
         </table>
     </section>
