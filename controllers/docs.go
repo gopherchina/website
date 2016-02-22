@@ -1,11 +1,8 @@
 package controllers
 
 import (
-	"fmt"
 	"io"
 	"os"
-
-	"github.com/gopherchina/website/models"
 
 	"github.com/astaxie/beego/context"
 	"github.com/beego/i18n"
@@ -17,29 +14,8 @@ type DocsController struct {
 
 // Get implemented Get method for DocsController.
 func (this *DocsController) Get() {
-	name := this.Ctx.Input.Param(":name")
-	id := this.Ctx.Input.Param(":id")
-	if name == "" {
-		this.Data["indexActive"] = true
-		this.Data["Title"] = "GopherChina"
-		this.TplName = "index.tpl"
-	} else {
-		filename := name
-		if id != "" {
-			filename = name + "/" + id
-		}
-		df := models.GetDoc(filename, this.Lang)
-		if df == nil {
-			this.Abort("404")
-		}
-		this.Data[fmt.Sprintf("%sActive", name)] = true
-		this.Data["Section"] = name
-
-		this.Data["Title"] = df.Title + " - GopherChina"
-		this.Data["title"] = df.Title
-		this.Data["Data"] = string(df.Data)
-		this.TplName = "detail.tpl"
-	}
+	this.Data["Title"] = "GopherChina"
+	this.TplName = "index.tpl"
 }
 
 func DocsStatic(ctx *context.Context) {

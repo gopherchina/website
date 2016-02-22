@@ -9,83 +9,17 @@
             
             <p>Second &amp; Largest Conference</p>
             
-            <a class="btn btn-white" data-scroll href="#registration">Register Now</a>
+            <a class="btn btn-white" data-scroll href="#register">Register Now</a>
         
         </div>
     </header>
-
-    <section id="about" class="section about">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-
-                    <h3 class="section-title">About Us</h3>
-
-                    <p>You've inspired new consumer, racked up click-thru's, blown-up brand enes. We can't give you back the weekends you worked, or erase the pain ebeing forced to make the logo bigger. But if you submit your best work we ajusts might be able to give the chance to show you best digital marketing.</p>
-
-                    <figure>
-                        <img alt="" class="img-responsive" src="/static/images/about-us.jpg">
-                    </figure>
-
-                </div><!-- /.col-sm-6 -->
-
-                <div class="col-sm-6">
-
-                    <h3 class="section-title multiple-title">What is Our Goal?</h3>
-
-                    <p>You've inspired new consumer, racked up click-thru's, blown-up brand enes. We can't give you back the weekends you worked, or erase the pain ebeing forced to make the logo bigger. But if you submit your best work we ajusts might be able to give the chance to show you best digital marketing.</p>
-
-                    <ul class="list-arrow-right">
-
-                        <li>Learn from the best Asian Social Media Experts &amp; Case Studies</li>
-                        <li>Have dedicated 2-to-1 meetings with the experts</li>
-                        <li>Reach more consumers for less by learning new digital media skills</li>
-                        <li>Save money when spending in online advertising</li>
-                    
-                    </ul>
-
-                </div><!-- /.col-sm-6 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section>
-
-    <section id="facts" class="section bg-image-1 facts text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-
-                    <i class="ion-ios-calendar"></i>
-                    <h3>2015<br>June 25</h3>
-                
-                </div>
-                <div class="col-sm-3">
-
-                    <i class="ion-ios-location"></i>
-                    <h3>California<br>USA</h3>
-                
-                </div>
-                <div class="col-sm-3">
-
-                    <i class="ion-pricetags"></i>
-                    <h3>150<br>Tickets</h3>
-                
-                </div>
-                <div class="col-sm-3">
-                
-                    <i class="ion-speakerphone"></i>
-                    <h3>06<br>Speakers</h3>
-                
-                </div>
-            </div><!-- row -->
-        </div><!-- container -->
-    </section>
 
     <section id="speakers" class="section speakers">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
 
-                    <h3 class="section-title">Speakers</h3>
+                    <h3 class="section-title">{{if eq .Lang "zh-CN"}}演讲嘉宾{{else}}Speakers{{end}}</h3>
                 
                 </div>
             </div>
@@ -217,26 +151,12 @@
         </div>
     </section>
 
-
-    <section id="contribution" class="section bg-image-2 contribution">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="text-uppercase mt0 font-400">Submit Your Contribution Work</h3>
-                    
-                    <p>You've inspired new consumer, racked up click-thru's, blown-up brand awareness. We can't give you back the weekends you worked, or erase the pain of being forced to make the logo bigger. But if you submit your best work.</p>
-
-                    <a class="btn btn-white" href="#">Submit</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="schedule" class="section schedule">
+
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-title">Event Schedule</h3>
+                    <h3 class="section-title">{{if eq .Lang "zh-CN"}}会议日程{{else}}Event Schedule{{end}}</h3>
                 </div>
             </div>
             <div class="row">
@@ -269,12 +189,25 @@
                 </div>
             </div>
     </section>
-
+    <section id="register" class="section register">
+        <div class="container">
+             <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">{{if eq .Lang "zh-CN"}}注册报名{{else}}Event Register{{end}}</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <script type="text/javascript" src="http://www.bagevent.com/resources/js/bagevent-widget-1.0.js?parent=true"></script><iframe id="promote_ticket_iframe" width="100%" src="http://www.bagevent.com/widget/ticket/13779?widget=1" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="partner" class="section partner">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-title">Event Partner</h3>
+                    <h3 class="section-title">{{if eq .Lang "zh-CN"}}赞助商{{else}}Event Partner{{end}}</h3>
                 </div>
             </div>
             <div class="row">
@@ -308,150 +241,77 @@
             </div>   
     </section>
 
-    <section id="faq" class="section faq">
+    <section id="supporters" class="section supporters">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-title">Event FAQs</h3>
+                    <h3 class="section-title">{{if eq .Lang "zh-CN"}}媒体支持{{else}}Media Supporter{{end}}</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> What is the price of the ticket ?</a>
-                                </h4>
-                            </div>
-
-                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                    <h3>Hello</h3>
-                                    <p>Lorem Ipsum</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> What is included in my ticket ?</a>
-                                </h4>
-                            </div>
-
-                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body">Hello</div>
-                            </div>
-                        </div>
-  
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThree">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Office address ?</a>
-                                </h4>
-                            </div>
-
-                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body">Hello</div>
-                            </div>
-                        </div>
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFour">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> How should I dress ?</a>
-                                </h4>
-                            </div>
-
-                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                <div class="panel-body">Hello</div>
-                            </div>
-                        </div>
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFive">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> I have specific questions that are not addressed here. Who can help me ?</a>
-                                </h4>
-                            </div>
-
-                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                                <div class="panel-body">Hello</div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-1"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-2"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-3"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-4"></a>
                 </div>
             </div>
-    </section>
 
-    <section id="photos" class="section photos">
-        <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Photos</h3>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-5"></a>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="grid">
-                        
-                        <li class="grid-item grid-item-sm-6">
-                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-1.jpg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-2.jpg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-3.jpg">
-                        </li>
-                    
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-5.jpg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-6.jpg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-7.jpg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-8.jpg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-2.jpg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="/static/images/photos/photos-3.jpg">
-                        </li>
-                    </ul>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-6"></a>
                 </div>
-            </div>            
-        </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-7"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-8"></a>
+                </div>
+            </div>   
     </section>
 
     <section id="location" class="section location">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                    <h3 class="section-title">Event Location</h3>
+                    <h3 class="section-title">{{if eq .Lang "zh-CN"}}会议地址{{else}}Event Location{{end}}</h3>
                     <address>
-                        <p>Eardenia<br> The Grand Hall<br> House # 08, Road #52, Street<br> Phone: +1159t3764<br> Email: example@mail.com</p>
+                        <p>北京 东城区<br>工体北路新中西街8号<br>亚洲大酒店<br> Email: xiemengjun@gmail.com</p>
                     </address>
                 </div>
                 <div class="col-sm-9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96706.50013548559!2d-78.9870674333782!3d40.76030630398601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sbd!4v1436299406518" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="map" id="mapContainer"></div>
                 </div>
             </div>
         </div>
     </section>
+    <script type="text/javascript" src="//api.map.baidu.com/api?v=1.4&s=1"></script>
+<script type="text/javascript">
+
+var map = new BMap.Map("mapContainer");          
+    
+var point = new BMap.Point(116.445605, 39.939396);
+    
+map.centerAndZoom(point, 15);   
+    
+map.addControl(new BMap.NavigationControl());  
+    
+map.addControl(new BMap.ScaleControl());
+map.addControl(new BMap.OverviewMapControl());
+    
+var marker = new BMap.Marker(point);  
+    
+map.addOverlay(marker);  
+
+</script>
 
 {{template "base/footer.html" .}}
