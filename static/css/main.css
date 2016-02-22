@@ -136,7 +136,7 @@ ul li {
 }
 
 .section {
-  padding: 30px 0;
+  padding: 60px 0;
 }
 
 .section-title {
@@ -239,7 +239,7 @@ ul li {
 
 @media (min-width: 768px) {
   .section {
-    padding: 40px 0;
+    padding: 80px 0;
   }
 
   .section-title {
@@ -465,28 +465,56 @@ ul li {
   opacity: 1;
 }
 .partner .partner-box-1 {
-  background: url(../images/partner/partner-1.png) no-repeat center center/contain;
+  background: url(../images/partner/qiniu.jpg) no-repeat center center/contain;
 }
 .partner .partner-box-2 {
-  background: url(../images/partner/partner-2.png) no-repeat center center/contain;
+  background: url(../images/partner/daocloud.jpg) no-repeat center center/contain;
 }
 .partner .partner-box-3 {
-  background: url(../images/partner/partner-3.png) no-repeat center center/contain;
+  background: url(../images/partner/xd.png) no-repeat center center/contain;
 }
 .partner .partner-box-4 {
-  background: url(../images/partner/partner-4.png) no-repeat center center/contain;
+  background: url(../images/partner/berrychat.png) no-repeat center center/contain;
 }
 .partner .partner-box-5 {
-  background: url(../images/partner/partner-5.png) no-repeat center center/contain;
+  background: url(../images/partner/pingcap.png) no-repeat center center/contain;
 }
 .partner .partner-box-6 {
-  background: url(../images/partner/partner-6.png) no-repeat center center/contain;
+  background: url(../images/partner/meican.png) no-repeat center center/contain;
 }
 .partner .partner-box-7 {
-  background: url(../images/partner/partner-7.png) no-repeat center center/contain;
+  background: url(../images/partner/waiting.png) no-repeat center center/contain;
 }
 .partner .partner-box-8 {
-  background: url(../images/partner/partner-8.png) no-repeat center center/contain;
+  background: url(../images/partner/waiting.png) no-repeat center center/contain;
+}
+
+.supporters {
+  background-color: #f8f8f8;
+}
+.supporters .supporters-box {
+  display: block;
+  opacity: 0.3;
+  height: 150px;
+  width: 150px;
+  margin: 25px auto;
+  -webkit-transition: 0.5s all linear;
+          transition: 0.5s all linear;
+}
+.supporters .supporters-box:hover {
+  opacity: 1;
+}
+.supporters .supporters-box-1 {
+  background: url(../images/partner/infoq.jpg) no-repeat center center/contain;
+}
+.supporters .supporters-box-2 {
+  background: url(../images/partner/segmentfault.jpg) no-repeat center center/contain;
+}
+.supporters .supporters-box-3 {
+  background: url(../images/partner/waiting.png) no-repeat center center/contain;
+}
+.supporters .supporters-box-4 {
+  background: url(../images/partner/waiting.png) no-repeat center center/contain;
 }
 
 /* 
