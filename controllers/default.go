@@ -15,18 +15,18 @@ func (this *MainController) Get() {
 	if name == "" {
 		this.Data["Title"] = "GopherChina"
 		this.Data["indexActive"] = true
-		this.TplNames = "index.tpl"
+		this.TplName = "index.tpl"
 	} else if name == "speaker" {
 		this.Data["Title"] = "分享嘉宾 - GopherChina"
 		this.Data["userActive"] = true
-		this.TplNames = "speaker.tpl"
+		this.TplName = "speaker.tpl"
 	} else if name == "venue" {
 		this.Data["Title"] = "会场信息 - GopherChina"
-		this.TplNames = "venue.tpl"
+		this.TplName = "venue.tpl"
 	} else if name == "register" {
 		this.Data["regActive"] = true
 		this.Data["Title"] = "注册报名 - GopherChina"
-		this.TplNames = "register.tpl"
+		this.TplName = "register.tpl"
 	} else {
 		df := models.GetDoc(name, this.Lang)
 		this.Data[fmt.Sprintf("%sActive", name)] = true
@@ -34,6 +34,6 @@ func (this *MainController) Get() {
 		this.Data["Title"] = df.Title + " - GopherChina"
 		this.Data["title"] = df.Title
 		this.Data["Data"] = string(df.Data)
-		this.TplNames = "detail.tpl"
+		this.TplName = "detail.tpl"
 	}
 }

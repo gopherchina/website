@@ -263,7 +263,7 @@ func getFile(filePath string) *docFile {
 func GetDoc(fullName, lang string) *docFile {
 	filePath := "docs/" + lang + "/" + fullName
 
-	if beego.RunMode == "dev" {
+	if beego.BConfig.RunMode == "dev" {
 		return getFile(filePath)
 	}
 

@@ -22,7 +22,7 @@ func (this *DocsController) Get() {
 	if name == "" {
 		this.Data["indexActive"] = true
 		this.Data["Title"] = "GopherChina"
-		this.TplNames = "index.tpl"
+		this.TplName = "index.tpl"
 	} else {
 		filename := name
 		if id != "" {
@@ -38,12 +38,12 @@ func (this *DocsController) Get() {
 		this.Data["Title"] = df.Title + " - GopherChina"
 		this.Data["title"] = df.Title
 		this.Data["Data"] = string(df.Data)
-		this.TplNames = "detail.tpl"
+		this.TplName = "detail.tpl"
 	}
 }
 
 func DocsStatic(ctx *context.Context) {
-	if uri := ctx.Input.Params[":all"]; len(uri) > 0 {
+	if uri := ctx.Input.Param(":all"); len(uri) > 0 {
 		lang := ctx.GetCookie("lang")
 		if !i18n.IsExist(lang) {
 			lang = "en-US"
