@@ -1,16 +1,26 @@
 {{template "base/header.html" .}}
 
-<header id="site-header" class="site-header valign-center"> 
+<header id="site-header" class="site-header valign-center">
         <div class="intro">
 
-            <h2>25 April, 2016 / 中国 北京</h2>
+{{if eq .Lang "en-US"}}
+            <h2>16 April, 2016 / Beijing China</h2>
             
             <h1>Gopher China 2016</h1>
             
-            <p>Second &amp; Largest Conference</p>
+            <p>Gopher's biggest party</p>
             
-            <a class="btn btn-white" data-scroll href="#register">{{if eq .Lang "zh-CN"}}注册报名{{else}}Register Now{{end}}</a>
+            <a class="btn btn-white" data-scroll href="#register">Register Now</a>
         
+{{else}}
+            <h2>中国 北京 / 2016-04-16 09:00 ~ 2016-04-17 18:00</h2>
+
+            <h1>第二届 Gopher China 大会</h1>
+
+            <p>Go爱好者的巨大party</p>
+
+            <a class="btn btn-white" data-scroll href="#register">注册报名</a>
+{{end}}
         </div>
     </header>
 
@@ -20,7 +30,7 @@
                 <div class="col-md-12">
 
                     <h3 class="section-title">{{if eq .Lang "zh-CN"}}演讲嘉宾{{else}}Speakers{{end}}</h3>
-                
+
                 </div>
             </div>
 
@@ -327,7 +337,7 @@
                 <div class="col-sm-3">
                     <a class="partner-box partner-box-8"></a>
                 </div>
-            </div>   
+            </div>
     </section>
 
     <section id="supporters" class="section supporters">
@@ -365,7 +375,7 @@
                 <div class="col-sm-3">
                     <a class="partner-box partner-box-8"></a>
                 </div>
-            </div>   
+            </div>
     </section>
 
     <section id="location" class="section location">
@@ -386,20 +396,20 @@
     <script type="text/javascript" src="//api.map.baidu.com/api?v=1.4&s=1"></script>
 <script type="text/javascript">
 
-var map = new BMap.Map("mapContainer");          
-    
+var map = new BMap.Map("mapContainer");
+
 var point = new BMap.Point(116.445605, 39.939396);
-    
-map.centerAndZoom(point, 15);   
-    
-map.addControl(new BMap.NavigationControl());  
-    
+
+map.centerAndZoom(point, 15);
+
+map.addControl(new BMap.NavigationControl());
+
 map.addControl(new BMap.ScaleControl());
 map.addControl(new BMap.OverviewMapControl());
-    
-var marker = new BMap.Marker(point);  
-    
-map.addOverlay(marker);  
+
+var marker = new BMap.Marker(point);
+
+map.addOverlay(marker);
 
 </script>
 
