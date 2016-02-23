@@ -258,7 +258,7 @@
                 </tr>
                 <tr>
                     <td>16:45-17:45</td>
-                    <td>Paul Dix,fluxedb   待定</td>
+                    <td>Paul Dix,influxdb   待定</td>
                 </tr>
             </tbody>
         </table>
