@@ -179,7 +179,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td align="center" rowspan="12" valign="middle">4月16日<br>周六</td>
+                    <td align="center" rowspan="13" valign="middle">4月16日<br>周六</td>
                     <td>08:20-8:50</td>
                     <td>入场报到</td>
                 </tr>
@@ -189,75 +189,79 @@
                 </tr>
                 <tr>
                     <td>09:00-09:10</td>
-                    <td>介绍</td>
+                    <td>主办方致辞</td>
                 </tr>
                 <tr>
-                    <td>09:10-10:10</td>
+                    <td>09:10-10:00</td>
                     <td>陈辉,蚂蚁金服       Go在数据挖掘的应用</td>
                 </tr>
                 <tr>
-                    <td>10:15-11:15</td>
+                    <td>10:05-10:55</td>
                     <td>刘奇,PingCAP       Go在分布式数据库中的应用</td>
                 </tr>
                 <tr>
-                    <td>11:20-12:20</td>
+                    <td>11:00-11:50</td>
                     <td>许式伟,七牛         待定</td>
                 </tr>
                 <tr>
-                    <td>13:30-14:30</td>
+                    <td>13:10-14:00</td>
                     <td>孙宏亮,DaoCloud    Go在分布式docker里面的应用</td>
                 </tr>
                 <tr>
-                    <td>14:35-15:35</td>
-                    <td>Marcel,Google     Go如何解决i18s和i13n问题</td>
+                    <td>14:05-14:55</td>
+                    <td>Marcel,Google     Go如何解决i18n和i13n问题</td>
                 </tr>
                 <tr>
-                    <td>15:35-15:55</td>
+                    <td>14:55-15:15</td>
                     <td>茶歇</td>
                 </tr>
                 <tr>
-                    <td>16:00-17:00</td>
+                    <td>15:15-16:05</td>
                     <td>米嘉,宜信          Go如何构建Web应用</td>
                 </tr>
                 <tr>
-                    <td>17:00-18:00</td>
+                    <td>16:10-17:00</td>
                     <td>邓洪超,CoreOS      Go在分布式系统的性能调试和优化</td>
                 </tr>
                 <tr>
-                    <td>20:15-22:30</td>
+                    <td>17:05-17:55</td>
+                    <td>沈晟,心动科技      Golang在移动客户端开发中的应用</td>
+                </tr>
+                <tr>
+                    <td>20:15-22:00</td>
                     <td>Gopher技术沙龙party, 七牛和DaoCloud联合赞助举办</td>
                 </tr>
                 <tr>
                     <td align="center" rowspan="9" valign="middle">4月17日<br>周日</td>
-                    <td>09:00-10:00</td>
+                    <td>09:00-09:50</td>
                     <td>Dave Cheney        How to Write high performance application</td>
                 </tr>
                  <tr>
-                    <td>10:05-11:05</td>
+                    <td>09:55-10:45</td>
                     <td>吴小伟,阿里云        Go在CDN系统的应用</td>
                 </tr>
                  <tr>
-                    <td>11:10-12:10</td>
+                    <td>10:50-11:40</td>
                     <td>陶春华,百度           Go在百度bfe的应用</td>
                 </tr>
                  <tr>
-                    <td>13:10-14:10</td>
+                    <td>13:00-13:50</td>
                     <td>毛剑,哔哩哔哩        Go在数据存储上面的应用</td>
                 </tr>
                  <tr>
-                    <td>14:15-15:15</td>
+                    <td>13:55-14:45</td>
                     <td>高步双,小米         Go在小米网运维平台的应用与实践</td>
                  </tr>
                  <tr>
-                     <td>15:15-15:35</td>
+                     <td>14:45-15:05</td>
                      <td>茶歇</td>
                  </tr>
                  <tr>
-                    <td>15:40-16:40</td>
+                    <td>15:05-15:55</td>
                     <td>孙建良,网易         Go在网易广域网上传加速系统中的应用</td>
                 </tr>
                 <tr>
-                    <td>16:45-17:45</td>
+                    <td>15:55-16:45</td>
                     <td>Paul Dix,influxdb   待定</td>
                 </tr>
             </tbody>
