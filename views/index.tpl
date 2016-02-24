@@ -342,6 +342,20 @@
             </div>
     </section>
 
+    <section id="partner" class="section partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">{{if eq .Lang "zh-CN"}}合作伙伴{{else}}Partners{{end}}</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-7"></a>
+                </div>
+            </div>
+    </section>
+
     <section id="supporters" class="section supporters">
         <div class="container">
             <div class="row">
