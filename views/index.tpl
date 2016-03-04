@@ -507,16 +507,16 @@
 
             <div class="row">
                 <div class="col-sm-3">
-                    <a class="partner-box supporters-box-5"></a>
+                    <a class="supporters-box supporters-box-5"></a>
                 </div>
                 <div class="col-sm-3">
-                    <a class="partner-box supporters-box-6"></a>
+                    <a class="supporters-box supporters-box-6"></a>
                 </div>
                 <div class="col-sm-3">
-                    <a class="partner-box supporters-box-7"></a>
+                    <a class="supporters-box supporters-box-7"></a>
                 </div>
                 <div class="col-sm-3">
-                    <a class="partner-box supporters-box-8"></a>
+                    <a class="supporters-box supporters-box-8"></a>
                 </div>
             </div>
     </section>
