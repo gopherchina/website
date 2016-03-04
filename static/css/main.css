@@ -486,7 +486,10 @@ ul li {
   background: url(../images/partner/huanxin.jpg) no-repeat center center/contain;
 }
 .partner .partner-box-8 {
-  background: url(../images/partner/waiting.png) no-repeat center center/contain;
+  background: url(../images/partner/grab.png) no-repeat center center/contain;
+}
+.partner .partner-box-9 {
+  background: url(../images/partner/jike.png) no-repeat center center/contain;
 }
 
 .supporters {
@@ -515,6 +518,9 @@ ul li {
 }
 .supporters .supporters-box-4 {
   background: url(../images/partner/oschina.png) no-repeat center center/contain;
+}
+.supporters .supporters-box-5 {
+  background: url(../images/partner/tuicool.png) no-repeat center center/contain;
 }
 
 /*

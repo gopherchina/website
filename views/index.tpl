@@ -202,7 +202,7 @@
               </tr>
               <tr>
                   <td>11:00-11:50</td>
-                  <td>Shiwei Xu, Qiniu, TBD</td>
+                  <td>Bingyi Li, Baidu, Baidu BFE: Scalable HTTP Requests Routing Stack in Go</td>
               </tr>
               <tr>
                   <td>13:10-14:00</td>
@@ -243,7 +243,7 @@
               </tr>
                <tr>
                   <td>10:50-11:40</td>
-                  <td>Chunhua Tao, Baidu, Baidu BFE: Scalable HTTP Requests Routing Stack in Go</td>
+                  <td>Shiwei Xu, Qiniu, TBD</td>
               </tr>
                <tr>
                   <td>13:00-13:50</td>
@@ -263,7 +263,7 @@
               </tr>
               <tr>
                   <td>15:55-16:45</td>
-                  <td>Paul Dix,influxdb, TBD</td>
+                  <td>ZhaoChang,Grabtaxi   Golang testing CI and deploy</td>
               </tr>
           </tbody>
       </table>
@@ -311,7 +311,7 @@
               </tr>
               <tr>
                   <td>11:00-11:50</td>
-                  <td>许式伟,七牛         待定</td>
+                  <td>李炳毅,百度           Go在百度bfe的应用</td>
               </tr>
               <tr>
                   <td>13:10-14:00</td>
@@ -352,7 +352,7 @@
               </tr>
                <tr>
                   <td>10:50-11:40</td>
-                  <td>陶春华,百度           Go在百度bfe的应用</td>
+                  <td>许式伟,七牛         待定</td>
               </tr>
                <tr>
                   <td>13:00-13:50</td>
@@ -372,7 +372,7 @@
               </tr>
               <tr>
                   <td>15:55-16:45</td>
-                  <td>Paul Dix,influxdb   待定</td>
+                  <td>赵畅,Grabtaxi   Golang项目的测试，持续集成以及部署策略</td>
               </tr>
           </tbody>
       </table>
@@ -419,7 +419,19 @@
                 </div>
             </div>
     </section>
-
+    <section id="partner" class="section partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">{{if eq .Lang "zh-CN"}}白金赞助商{{else}}Platinum Sponsor{{end}}</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-8"></a>
+                </div>
+            </div>
+    </section>
     <section id="partner" class="section partner">
         <div class="container">
             <div class="row">
@@ -450,6 +462,9 @@
             <div class="row">
                 <div class="col-sm-3">
                     <a class="partner-box partner-box-4"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-9"></a>
                 </div>
             </div>
     </section>
