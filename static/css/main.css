@@ -491,7 +491,9 @@ ul li {
 .partner .partner-box-9 {
   background: url(../images/partner/jike.png) no-repeat center center/contain;
 }
-
+.partner .partner-box-9 {
+  background: url(../images/partner/google.jpg) no-repeat center center/contain;
+}
 .supporters {
   background-color: #f8f8f8;
 }

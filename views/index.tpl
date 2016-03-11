@@ -206,7 +206,7 @@
               </tr>
               <tr>
                   <td>13:10-14:00</td>
-                  <td>Hongliang Sun, DaoCloud, Distributed Docker System</td>
+                   <td>Jian Mao, bilibili.tv, Storage Systems in Go</td>
               </tr>
               <tr>
                   <td>14:05-14:55</td>
@@ -246,8 +246,8 @@
                   <td>Shiwei Xu, Qiniu, TBD</td>
               </tr>
                <tr>
-                  <td>13:00-13:50</td>
-                  <td>Jian Mao, bilibili.tv, Storage Systems in Go</td>
+                  <td>13:00-13:50</td>                 
+                  <td>Hongliang Sun, DaoCloud, Distributed Docker System</td>
               </tr>
                <tr>
                   <td>13:55-14:45</td>
@@ -258,12 +258,12 @@
                    <td>Break</td>
                </tr>
                <tr>
-                  <td>15:05-15:55</td>
-                  <td>Jianliang Su, Netease, Go for Netease's Upload Acceleration in WAN</td>
+                  <td>15:05-15:55</td>                  
+                  <td>ZhaoChang,Grabtaxi   Golang testing CI and deploy</td>
               </tr>
               <tr>
-                  <td>15:55-16:45</td>
-                  <td>ZhaoChang,Grabtaxi   Golang testing CI and deploy</td>
+                  <td>15:55-16:45</td>                
+                  <td>Jianliang Su, Netease, Go for Netease's Upload Acceleration in WAN</td>
               </tr>
           </tbody>
       </table>
@@ -314,8 +314,8 @@
                   <td>李炳毅,百度           Go在百度bfe的应用</td>
               </tr>
               <tr>
-                  <td>13:10-14:00</td>
-                  <td>孙宏亮,DaoCloud    Go在分布式docker里面的应用</td>
+                  <td>13:10-14:00</td>                  
+                  <td>毛剑,哔哩哔哩        Go在数据存储上面的应用</td>
               </tr>
               <tr>
                   <td>14:05-14:55</td>
@@ -356,7 +356,7 @@
               </tr>
                <tr>
                   <td>13:00-13:50</td>
-                  <td>毛剑,哔哩哔哩        Go在数据存储上面的应用</td>
+                  <td>孙宏亮,DaoCloud    Go在分布式docker里面的应用</td>
               </tr>
                <tr>
                   <td>13:55-14:45</td>
@@ -367,12 +367,12 @@
                    <td>茶歇</td>
                </tr>
                <tr>
-                  <td>15:05-15:55</td>
-                  <td>孙建良,网易         Go在网易广域网上传加速系统中的应用</td>
+                  <td>15:05-15:55</td>                  
+                  <td>赵畅,Grabtaxi   Golang项目的测试，持续集成以及部署策略</td>
               </tr>
               <tr>
-                  <td>15:55-16:45</td>
-                  <td>赵畅,Grabtaxi   Golang项目的测试，持续集成以及部署策略</td>
+                  <td>15:55-16:45</td>               
+                  <td>孙建良,网易         Go在网易广域网上传加速系统中的应用</td>
               </tr>
           </tbody>
       </table>
@@ -448,6 +448,9 @@
                 </div>
                 <div class="col-sm-3">
                     <a class="partner-box partner-box-6"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-10"></a>
                 </div>
             </div>
     </section>
