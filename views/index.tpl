@@ -419,6 +419,7 @@
                 </div>
             </div>
     </section>
+    <!--
     <section id="partner" class="section partner">
         <div class="container">
             <div class="row">
@@ -432,6 +433,7 @@
                 </div>
             </div>
     </section>
+    -->
     <section id="partner" class="section partner">
         <div class="container">
             <div class="row">
