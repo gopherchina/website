@@ -194,7 +194,7 @@
               </tr>
               <tr>
                   <td>09:10-10:00</td>
-                  <td>Hui Chen, Ant Financial Services Group, Data Mining in GO</td>
+                  <td>Hui Chen, Ant Financial Services Group, GO and AI </td>
               </tr>
               <tr>
                   <td>10:05-10:55</td>
@@ -303,7 +303,7 @@
               </tr>
               <tr>
                   <td>09:10-10:00</td>
-                  <td>陈辉,蚂蚁金服       Go在数据挖掘的应用</td>
+                  <td>陈辉,蚂蚁金服       Go与人工智能</td>
               </tr>
               <tr>
                   <td>10:05-10:55</td>
