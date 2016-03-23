@@ -243,7 +243,7 @@
               </tr>
                <tr>
                   <td>10:50-11:40</td>
-                  <td>Shiwei Xu, Qiniu, TBD</td>
+                  <td>Shiwei Xu, Qiniu, MicroService Management</td>
               </tr>
                <tr>
                   <td>13:00-13:50</td>                 
@@ -352,7 +352,7 @@
               </tr>
                <tr>
                   <td>10:50-11:40</td>
-                  <td>许式伟,七牛         待定</td>
+                  <td>许式伟,七牛         谈谈服务治理</td>
               </tr>
                <tr>
                   <td>13:00-13:50</td>

@@ -1,0 +1,10 @@
+package: github.com/gopherchina/website
+import:
+- package: github.com/astaxie/beego
+  subpackages:
+  - config
+  - context
+  - toolbox
+  - utils
+- package: github.com/beego/i18n
+- package: github.com/slene/blackfriday

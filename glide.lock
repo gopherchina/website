@@ -1,0 +1,20 @@
+hash: fad06a7be6c792beb59640ba316e332797c45359c484007a1bf81e2299c408a3
+updated: 2016-03-18T10:36:19.786913809+08:00
+imports:
+- name: github.com/astaxie/beego
+  version: 88816348b92863cc17109721e39e069c3209c206
+  subpackages:
+  - config
+  - context
+  - toolbox
+  - utils
+  - grace
+  - logs
+  - session
+- name: github.com/beego/i18n
+  version: e87155e8f0c05bf323d0b13470e1b97af0cb5652
+- name: github.com/slene/blackfriday
+  version: fd3fc8f180b28dfd78d2508b61c86dc2b7f970cd
+- name: github.com/Unknwon/goconfig
+  version: 5f601ca6ef4d5cea8d52be2f8b3a420ee4b574a5
+devImports: []
