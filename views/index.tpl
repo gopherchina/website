@@ -218,7 +218,7 @@
               </tr>
               <tr>
                   <td>15:15-16:05</td>
-                  <td>Jia Mi, CreditEase, Building Web Applications With Go</td>
+                  <td>Jia Mi, YingMi, Building Web Applications With Go</td>
               </tr>
               <tr>
                   <td>16:10-17:00</td>
@@ -327,7 +327,7 @@
               </tr>
               <tr>
                   <td>15:15-16:05</td>
-                  <td>米嘉,宜信          Go如何构建Web应用</td>
+                  <td>米嘉,盈米财富        Go如何构建Web应用</td>
               </tr>
               <tr>
                   <td>16:10-17:00</td>
@@ -449,9 +449,6 @@
                 <div class="col-sm-3">
                     <a class="partner-box partner-box-6"></a>
                 </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-10"></a>
-                </div>
             </div>
     </section>
 
@@ -464,10 +461,21 @@
             </div>
             <div class="row">
                 <div class="col-sm-3">
+                    <a class="partner-box partner-box-10"></a>
+                </div>
+                <div class="col-sm-3">
                     <a class="partner-box partner-box-4"></a>
                 </div>
                 <div class="col-sm-3">
                     <a class="partner-box partner-box-9"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-11"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-12"></a>
                 </div>
             </div>
     </section>
