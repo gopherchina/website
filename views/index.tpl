@@ -222,7 +222,7 @@
               </tr>
               <tr>
                   <td>16:10-17:00</td>
-                  <td>Hongchao Deng, CoreOS, Improving Performance of Large Scale Distributed System in Go</td>
+                  <td>Hongchao Deng, CoreOS, Improving Performance of Go Program</td>
               </tr>
               <tr>
                   <td>17:05-17:55</td>
@@ -331,7 +331,7 @@
               </tr>
               <tr>
                   <td>16:10-17:00</td>
-                  <td>邓洪超,CoreOS      Go在分布式系统的性能调试和优化</td>
+                  <td>邓洪超,CoreOS      Go的程序性能调优</td>
               </tr>
               <tr>
                   <td>17:05-17:55</td>
