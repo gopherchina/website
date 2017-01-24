@@ -1,0 +1,22 @@
+<script type="text/javascript">
+  (function () {
+    var elMenu = document.querySelector(".header-menu");
+    var elToggle = document.querySelector(".header-menu-toggle");
+    var isTouchScreen = ("ontouchstart" in window);
+
+    var headerMenuToggleHandler = function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var isExpanded = (elMenu.className === "header-menu header-menu-expanded");
+      elMenu.className = isExpanded ? "header-menu" : "header-menu header-menu-expanded";
+      elToggle.className = isExpanded ? "header-menu-toggle" : "header-menu-toggle header-menu-toggle-activated";
+      document.body.className = isExpanded ? "" : "header-menu-expanded";
+    };
+
+    if (isTouchScreen) {
+      elToggle.addEventListener("touchstart", headerMenuToggleHandler);
+    } else {
+      elToggle.addEventListener("click", headerMenuToggleHandler);
+    }
+  })();
+</script>

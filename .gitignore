@@ -1,11 +1,7 @@
-*.swp
-*~
+node_modules/
+_site/
+.sass-cache
+.jekyll-metadata
 .DS_Store
-*.tmp
-*.tmp
-*.pprof
-*.pdf
 
-/docs
-/tests
-website
+

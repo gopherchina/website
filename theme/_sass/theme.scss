@@ -1,0 +1,697 @@
+$highlight: #ffac00;
+$background: #001217;
+
+@import "font";
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Bw Glenn Sans", "Source Han Sans SC", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: $background;
+}
+
+.page-header {
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  z-index: 10;
+}
+
+.page-header h1 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-top: 47px;
+  width: 217px;
+  height: 25px;
+}
+
+.page-header h1 a {
+  display: block;
+  width: 217px;
+  height: 25px;
+  background-image: url("http://ok8n5dtco.bkt.clouddn.com/logo-gopherchina-2017.png");
+  background-repeat: no-repeat;
+  background-size: 217px 25px;
+  background-position: 0px 0px;
+  text-indent: -2017px;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.page-header a {
+  transition: all 0.15s linear;
+}
+
+.page-header h1 a:hover {
+  opacity: 0.7;
+}
+
+.page-header nav {
+  display: block;
+  min-width: 480px;
+  margin: 0;
+  padding: 0;
+}
+
+.inner-wrapper {
+  height: 100%;
+  margin: 0 120px;
+}
+
+.page-header .inner-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin-top: 45px;
+  list-style-type: none;
+}
+
+.header-menu li {
+  line-height: 32px;
+  margin-left: 8px;
+}
+
+.header-menu li:first-child {
+  margin-left: 0;
+}
+
+.header-menu a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0 16px;
+  text-shadow: 0px 0px 1px #888;
+  transition: all 0.15s linear;
+}
+
+.header-menu a:hover,
+.header-menu a:active,
+.header-menu a.active:hover,
+.header-menu a.active:active {
+  color: $highlight;
+}
+
+.header-menu-toggle {
+  display: none;
+}
+
+.page-content {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.page-content .inner-wrapper {
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 640px;
+  background-image: url("http://ok8n5dtco.bkt.clouddn.com/hero-optimized.jpg");
+  background-color: $background;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-section-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section-content-text {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+
+.hero-section-content-text h2 {
+  margin: 0;
+  padding: 0;
+  height: 48px;
+  line-height: 48px;
+  font-size: 48px;
+  font-weight: 500;
+  color: white;
+}
+
+.hero-section-content-text p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 500;
+  color: $highlight;
+}
+
+.hero-section-button {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.hero-section-button a {
+  display: inline-block;
+  padding: 16px 24px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: $highlight;
+  border-radius: 3px;
+  transition: all 0.15s linear;
+}
+
+.hero-section-button a:hover,
+.hero-section-button a:active {
+  letter-spacing: 0.8px;
+}
+
+.hero-section-cn .hero-section-button a:hover,
+.hero-section-cn .hero-section-button a:active {
+  letter-spacing: 4px;
+}
+
+.schedule-section {
+  width: 100%;
+  height: 100%;
+  min-height: 640px;
+  background-color: $background;
+}
+
+.schedule-section-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.schedule-section-content-text h2 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 160px;
+  line-height: 160px;
+  font-size: 48px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+.schedule-section-placeholder {
+  width: 100%;
+  height: 480px;
+  background-image: url("http://ok8n5dtco.bkt.clouddn.com/schedule-placeholder.png");
+  background-size: 1200px 480px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.schedule-section-placeholder p {
+  color: $highlight;
+  text-align: center;
+  line-height: 480px;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.location-section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 640px;
+  background-image: url("http://ok8n5dtco.bkt.clouddn.com/location-background.jpg");
+  background-color: $background;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.location-section-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.location-section-content h2 {
+  margin: 0;
+  padding: 0;
+  height: 48px;
+  line-height: 48px;
+  font-size: 48px;
+  font-weight: 500;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.location-section-content p {
+  color: $highlight;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.location-section-button {
+  padding-top: 40px;
+}
+
+.location-section-button a {
+  display: inline-block;
+  padding: 16px 24px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  background-color: $highlight;
+  border-radius: 3px;
+  transition: all 0.15s linear;
+  text-transform: uppercase;
+}
+
+.location-section-button a:hover,
+.location-section-button a:active {
+  letter-spacing: 0.8px;
+}
+
+.location-section-cn .location-section-button a:hover,
+.location-section-cn .location-section-button a:active {
+  letter-spacing: 4px;
+}
+
+
+.tickets-section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 640px;
+  background-color: $highlight;
+}
+
+.tickets-section-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tickets-section-content h2 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 160px;
+  line-height: 160px;
+  font-size: 48px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+.tickets-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 128px;
+  background-color: white;
+  border-radius: 3px;
+  margin-bottom: 32px;
+  color: $highlight;
+  text-decoration: none;
+  transition: all 0.15s linear;
+}
+
+.tickets-early-bird:hover,
+.tickets-early-bird:active {
+  width: 672px;
+}
+
+.tickets-normal:hover,
+.tickets-normal:active {
+  width: 584px;
+}
+
+.tickets-early-bird {
+  width: 640px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.tickets-normal {
+  width: 560px;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.tickets-item .ticket-label {
+  padding-left: 48px;
+}
+
+.tickets-item .ticket-price {
+  padding-right: 48px;
+}
+
+.history-section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 640px;
+  background-color: $background;
+}
+
+.history-section-content {
+  height: calc(100% - 160px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.history-section-content h2 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 160px;
+  line-height: 160px;
+  margin-bottom: 80px;
+  font-size: 48px;
+  font-weight: 500;
+  color: white;
+}
+
+
+.history-item {
+  display: inline-block;
+  padding: 16px 24px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  background-color: $highlight;
+  border-radius: 3px;
+  transition: all 0.15s linear;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.history-item:hover,
+.history-item:active {
+  letter-spacing: 0.8px;
+}
+
+body.header-menu-expanded .hero-section-content {
+  display: none;
+}
+
+.page-footer {
+  bottom: 0;
+  margin: 0;
+  margin-bottom: 64px;
+  background-color: transparent;
+}
+
+.page-footer p {
+  margin: 0;
+  line-height: 16px;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+}
+
+@media (max-width: 960px) {
+  .inner-wrapper {
+    height: 100%;
+    margin: 0 40px;
+  }
+}
+
+@media (max-width: 840px) {
+  .page-header .inner-wrapper {
+    position: relative;
+  }
+
+  .page-header nav {
+    position: absolute;
+    width: 100%;
+    top: 44px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    min-width: 0px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-menu-toggle {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url("/assets/icon-menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px 30px;
+  }
+
+  .header-menu-toggle-activated {
+    background-image: url("/assets/icon-close.png");
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  .header-menu.header-menu-expanded {
+    display: block;
+  }
+
+  .header-menu.header-menu-expanded li {
+    margin-left: 0;
+  }
+
+  .header-menu.header-menu-expanded a {
+    font-size: 32px;
+    text-align: right;
+    padding: 0;
+    line-height: 3.2;
+  }
+}
+
+@media (max-width: 720px) {
+  .hero-section-content-text p {
+    font-size: 24px;
+  }
+
+  .hero-section-content-text h2 {
+    font-size: 36px;
+  }
+
+  .tickets-item {
+    height: 96px;
+  }
+
+  .tickets-early-bird {
+    width: 98%;
+    font-size: 32px;
+  }
+
+  .tickets-early-bird:hover,
+  .tickets-early-bird:active {
+    width: 100%;
+  }
+
+  .tickets-normal {
+    width: 92%;
+    font-size: 24px;
+  }
+
+  .tickets-early-bird:hover,
+  .tickets-early-bird:active {
+    width: 94%;
+  }
+
+  .location-section-content h2 {
+    text-align: center;
+  }
+
+  .location-section-content p {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .location-section-button {
+    text-align: center;
+  }
+
+  .history-section-content {
+    align-items: center;
+  }
+
+  .history-section-content h2 {
+    text-align: center;
+  }
+
+  .page-footer p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 560px) {
+  .header-menu.header-menu-expanded a {
+    font-size: 28px;
+  }
+
+  .hero-section-content-text h2 {
+    font-size: 28px;
+  }
+
+  .hero-section-content-text p {
+    font-size: 20px;
+  }
+
+  .schedule-section-content-text h2,
+  .location-section-content h2,
+  .tickets-section-content h2,
+  .history-section-content h2 {
+    font-size: 32px;
+  }
+
+  .tickets-early-bird {
+    font-size: 24px;
+  }
+
+  .tickets-normal {
+    font-size: 20px;
+  }
+
+  .tickets-item .ticket-price {
+    padding-right: 24px;
+  }
+
+  .tickets-item .ticket-label {
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 420px) {
+  .page-header h1 {
+    width: 174px;
+    height: 20px;
+  }
+
+  .page-header h1 a {
+    width: 174px;
+    height: 20px;
+    background-size: 174px 20px;
+  }
+
+  .header-menu-toggle {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+  }
+
+  .header-menu.header-menu-expanded a {
+    font-size: 24px;
+  }
+
+  .hero-section,
+  .schedule-section,
+  .location-section,
+  .tickets-section,
+  .history-section {
+    min-height: 560px;
+  }
+
+  .hero-section-content-text h2 {
+    font-size: 18px;
+  }
+
+  .hero-section-content-text p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .hero-section-button a {
+    font-size: 15px;
+    padding: 8px 16px;
+  }
+
+  .schedule-section-content-text h2,
+  .location-section-content h2,
+  .tickets-section-content h2,
+  .history-section-content h2 {
+    font-size: 24px;
+  }
+
+  .schedule-section-placeholder p {
+    font-size: 20px;
+  }
+
+  .location-section-content p {
+    font-size: 16px;
+  }
+
+  .location-section-button a {
+    font-size: 15px;
+    padding: 8px 16px;
+  }
+
+  .tickets-item {
+    height: 64px;
+  }
+
+  .tickets-early-bird {
+    font-size: 18px;
+  }
+
+  .tickets-normal {
+    font-size: 14px;
+  }
+
+  .tickets-item .ticket-price {
+    padding-right: 16px;
+  }
+
+  .tickets-item .ticket-label {
+    padding-left: 16px;
+  }
+
+  .history-item {
+    font-size: 15px;
+    padding: 8px 16px;
+  }
+
+  .page-footer p {
+    font-size: 12px;
+  }
+}

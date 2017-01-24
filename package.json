@@ -1,0 +1,18 @@
+{
+  "name": "gopherchina-2017",
+  "version": "0.1.0",
+  "description": "GopherChina 2017 Website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopherchina/website.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gopherchina/website/issues"
+  },
+  "homepage": "https://github.com/gopherchina/website#readme",
+  "dependencies": {
+    "fontmin": "^0.9.6",
+    "source-han-sans-sc-ttf": "^1.0.0"
+  }
+}

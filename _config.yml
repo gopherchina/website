@@ -1,0 +1,29 @@
+# Site settings
+
+title: GopherChina 2017
+
+description: >
+  TODO: GopherChina 2017 description.
+
+baseurl: ""
+
+url: ""
+
+# Build settings
+
+markdown: kramdown
+
+theme: theme
+
+exclude:
+  - node_modules/
+  - theme/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - build-font.sh
+  - package.json
+  - README.md
+  - LICENSE
+
