@@ -1,6 +1,8 @@
 <script type="text/javascript">
   (function () {
+    // Expand or collapse header menu for narrow screens, mostly mobile devices.
     var elMenu = document.querySelector(".header-menu");
+    var menuLinks = document.querySelectorAll(".header-menu a");
     var elToggle = document.querySelector(".header-menu-toggle");
     var isTouchScreen = ("ontouchstart" in window);
 
@@ -18,5 +20,35 @@
     } else {
       elToggle.addEventListener("click", headerMenuToggleHandler);
     }
+
+    var headerMenuLinkHandler = function (hash) {
+      return function (e) {
+        e.stopPropagation();
+        elMenu.className = "header-menu";
+        elToggle.className = "header-menu-toggle";
+        document.body.className = "";
+        location.hash = hash;
+      };
+    };
+
+    for (var i = 0, len = menuLinks.length; i < len; i++) {
+      menuLinks[i].addEventListener("click", headerMenuLinkHandler(menuLinks[i].href));
+    }
+
+    // Display or hide page header according to scrolling position
+    var elHeader = document.querySelector(".page-header");
+    var applicationScrollHandler = function (e) {
+      var scrollTop = document.body.scrollTop;
+
+      if (scrollTop <= 64) {
+        elHeader.className = "page-header";
+      } else if (scrollTop <= window.innerHeight * 0.618) {
+        elHeader.className = "page-header page-header-hidden";
+      } else {
+        elHeader.className = "page-header page-header-sticky";
+      }
+    };
+
+    window.addEventListener("scroll", applicationScrollHandler);
   })();
 </script>

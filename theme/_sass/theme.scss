@@ -14,11 +14,37 @@ html, body {
   background-color: $background;
 }
 
+body.header-menu-expanded {
+  overflow: hidden;
+}
+
 .page-header {
   width: 100%;
   position: absolute;
   margin: 0;
   z-index: 10;
+  opacity: 1;
+  background-color: transparent;
+  transition: all 0.25s linear;
+}
+
+.page-header-hidden {
+  opacity: 0;
+}
+
+.page-header-sticky {
+  position: fixed;
+  background-color: rgba(0, 18, 23, 0.64);
+}
+
+.page-header.page-header-sticky h1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.page-header-sticky .header-menu {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .page-header h1 {
@@ -28,6 +54,7 @@ html, body {
   margin-top: 47px;
   width: 217px;
   height: 25px;
+  transition: margin 0.15s linear;
 }
 
 .page-header h1 a {
@@ -75,6 +102,7 @@ html, body {
   padding: 0;
   margin-top: 45px;
   list-style-type: none;
+  transition: margin 0.15s linear;
 }
 
 .header-menu li {
@@ -427,7 +455,11 @@ html, body {
   letter-spacing: 0.8px;
 }
 
-body.header-menu-expanded .hero-section-content {
+.header-menu-expanded .hero-section-content,
+.header-menu-expanded .schedule-section-content,
+.header-menu-expanded .location-section-content,
+.header-menu-expanded .tickets-section-content,
+.header-menu-expanded .history-section-content {
   display: none;
 }
 
@@ -470,6 +502,11 @@ body.header-menu-expanded .hero-section-content {
     min-width: 0px;
     margin: 0;
     padding: 0;
+    transition: top 0.15s linear;
+  }
+
+  .page-header.page-header-sticky nav {
+    top: 20px;
   }
 
   .header-menu-toggle {
@@ -536,6 +573,11 @@ body.header-menu-expanded .hero-section-content {
 
   .tickets-early-bird:hover,
   .tickets-early-bird:active {
+    width: 100%;
+  }
+
+  .tickets-normal:hover,
+  .tickets-normal:active {
     width: 94%;
   }
 
