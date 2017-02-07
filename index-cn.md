@@ -1,4 +1,4 @@
 ---
 layout:     home-cn
-permalink:  /cn/
+permalink:  /
 ---
