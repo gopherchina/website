@@ -482,14 +482,14 @@ body.header-menu-expanded {
   color: white;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1200px) {
   .inner-wrapper {
     height: 100%;
     margin: 0 40px;
   }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 1080px) {
   .page-header .inner-wrapper {
     position: relative;
   }
@@ -657,6 +657,10 @@ body.header-menu-expanded {
     width: 174px;
     height: 20px;
     background-size: 174px 20px;
+  }
+
+  .page-header nav {
+    top: 47px;
   }
 
   .header-menu-toggle {
