@@ -179,9 +179,9 @@ body.header-menu-expanded {
 .hero-section-content-text h2 {
   margin: 0;
   padding: 0;
-  height: 48px;
-  line-height: 48px;
-  font-size: 48px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 40px;
   font-weight: 500;
   color: white;
   text-shadow: 0px 0px 48px $background;
@@ -190,8 +190,8 @@ body.header-menu-expanded {
 .hero-section-content-text p {
   margin: 0;
   padding: 0;
-  margin-bottom: 40px;
-  font-size: 32px;
+  margin-bottom: 32px;
+  font-size: 28px;
   line-height: 32px;
   font-weight: 500;
   color: $highlight;
@@ -199,13 +199,13 @@ body.header-menu-expanded {
 }
 
 .hero-section-button {
-  margin-top: 40px;
+  margin-top: 32px;
   text-align: center;
 }
 
 .hero-section-button a {
   display: inline-block;
-  padding: 16px 24px;
+  padding: 12px 24px;
   font-size: 16px;
   line-height: 16px;
   font-weight: 500;
@@ -219,12 +219,7 @@ body.header-menu-expanded {
 
 .hero-section-button a:hover,
 .hero-section-button a:active {
-  letter-spacing: 0.8px;
-}
-
-.hero-section-cn .hero-section-button a:hover,
-.hero-section-cn .hero-section-button a:active {
-  letter-spacing: 4px;
+  transform: scale(1.08);
 }
 
 .schedule-section {
@@ -294,28 +289,28 @@ body.header-menu-expanded {
 .location-section-content h2 {
   margin: 0;
   padding: 0;
-  height: 48px;
-  line-height: 48px;
-  font-size: 48px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 40px;
   font-weight: 500;
   color: white;
-  padding-bottom: 40px;
+  padding-bottom: 32px;
 }
 
 .location-section-content p {
   color: $highlight;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 28px;
   text-shadow: 0px 0px 32px $background;
 }
 
 .location-section-button {
-  padding-top: 40px;
+  padding-top: 32px;
 }
 
 .location-section-button a {
   display: inline-block;
-  padding: 16px 24px;
+  padding: 12px 24px;
   font-size: 16px;
   line-height: 16px;
   font-weight: 500;
@@ -329,12 +324,7 @@ body.header-menu-expanded {
 
 .location-section-button a:hover,
 .location-section-button a:active {
-  letter-spacing: 0.8px;
-}
-
-.location-section-cn .location-section-button a:hover,
-.location-section-cn .location-section-button a:active {
-  letter-spacing: 4px;
+  transform: scale(1.08);
 }
 
 
@@ -343,7 +333,7 @@ body.header-menu-expanded {
   width: 100%;
   height: 100%;
   min-height: 640px;
-  background-color: $highlight;
+  background-color: $background;
 }
 
 .tickets-section-content {
@@ -360,7 +350,7 @@ body.header-menu-expanded {
   width: 100%;
   height: 160px;
   line-height: 160px;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 500;
   color: white;
   text-align: center;
@@ -370,34 +360,38 @@ body.header-menu-expanded {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 128px;
-  background-color: white;
+  height: 96px;
+  background-color: $highlight;
   border-radius: 3px;
   margin-bottom: 32px;
-  color: $highlight;
+  color: white;
   text-decoration: none;
   transition: all 0.15s linear;
 }
 
+.tickets-normal {
+  height: 72px;
+}
+
 .tickets-early-bird:hover,
 .tickets-early-bird:active {
-  width: 672px;
+  transform: scale(1.08);
 }
 
 .tickets-normal:hover,
 .tickets-normal:active {
-  width: 584px;
+  transform: scale(1.08);
 }
 
 .tickets-early-bird {
-  width: 640px;
-  font-size: 40px;
+  width: 480px;
+  font-size: 32px;
   font-weight: 500;
 }
 
 .tickets-normal {
-  width: 560px;
-  font-size: 32px;
+  width: 360px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -407,6 +401,14 @@ body.header-menu-expanded {
 
 .tickets-item .ticket-price {
   padding-right: 48px;
+}
+
+.tickets-normal .ticket-label {
+  padding-left: 24px;
+}
+
+.tickets-normal .ticket-price {
+  padding-right: 24px;
 }
 
 .history-section {
@@ -440,7 +442,7 @@ body.header-menu-expanded {
 
 .history-item {
   display: inline-block;
-  padding: 16px 24px;
+  padding: 12px 24px;
   font-size: 16px;
   line-height: 16px;
   font-weight: 500;
@@ -688,6 +690,10 @@ body.header-menu-expanded {
   .hero-section-content-text p {
     font-size: 14px;
     margin-bottom: 0;
+  }
+
+  .hero-section-button {
+    margin-top: 12px;
   }
 
   .hero-section-button a {
