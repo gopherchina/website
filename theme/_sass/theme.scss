@@ -480,6 +480,134 @@ body.header-menu-expanded {
   padding-right: 24px;
 }
 
+.sponsors-section {
+  position: relative;
+  width: 100%;
+  min-height: 640px;
+  padding: 40px 0 120px 0;
+  background-color: white;
+}
+
+.sponsors-group-level {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+  color: $background;
+  margin: 80px 0 40px 0;
+  opacity: 0.48;
+}
+
+.sponsors-section-en .sponsors-group-level {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.sponsors-coorganizer {
+  opacity: 0.8;
+  font-size: 40px;
+}
+
+.sponsors-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.sponsors-group-item {
+  margin-right: 64px;
+}
+
+.sponsors-group-item:last-child {
+  margin: 0;
+}
+
+.sponsors-item {
+  display: block;
+  width: 200px;
+  height: 120px;
+  text-indent: -2017px;
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+  transition: all 0.15s linear;
+}
+
+.sponsors-item:hover {
+  transform: scale(1.04);
+  opacity: 0.64;
+}
+
+.sponsors-qiniu {
+  background-image: url("/assets/logo-qiniu.png");
+}
+
+.sponsors-grabtaxi {
+  background-image: url("/assets/logo-grabtaxi.png");
+  background-size: 156px 60px;
+}
+
+.sponsors-huawei {
+  background-image: url("/assets/logo-huawei.png");
+}
+
+.sponsors-ezbuy {
+  background-image: url("/assets/logo-ezbuy.png");
+}
+
+.sponsors-elastic {
+  background-image: url("/assets/logo-elastic.png");
+}
+
+.sponsors-xd {
+  background-image: url("/assets/logo-xd.png");
+}
+
+.sponsors-pingcap {
+  background-image: url("/assets/logo-pingcap.png");
+}
+
+.sponsors-appcoach {
+  background-image: url("/assets/logo-appcoach.png");
+}
+
+.sponsors-ucloud {
+  background-image: url("/assets/logo-ucloud.png");
+  background-size: 153px 54px;
+}
+
+.sponsors-vmware {
+  background-image: url("/assets/logo-vmware.png");
+}
+
+.sponsors-meican {
+  background-image: url("/assets/logo-meican.png");
+  background-size: 80px 80px;
+}
+
+.sponsors-xunlian {
+  background-image: url("/assets/logo-xunlian.png");
+  background-size: 146px 60px;
+}
+
+.sponsors-dgraph {
+  background-image: url("/assets/logo-dgraph.png");
+}
+
+.sponsors-minio {
+  background-image: url("/assets/logo-minio.png");
+  background-size: 160px 72px;
+}
+
+.sponsors-google {
+  background-image: url("/assets/logo-google.png");
+}
+
 .history-section {
   position: relative;
   width: 100%;
@@ -651,6 +779,11 @@ body.header-menu-expanded {
   .location-section-content {
     padding-left: 120px;
   }
+
+  .sponsors-item {
+    width: 160px;
+    height: 96px;
+  }
 }
 
 @media (max-width: 720px) {
@@ -775,6 +908,13 @@ body.header-menu-expanded {
     align-items: flex-start;
     height: auto;
     margin-bottom: 32px;
+  }
+
+  .sponsors-group-item {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-right: 0;
   }
 }
 
