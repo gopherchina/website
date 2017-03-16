@@ -438,12 +438,16 @@ body.header-menu-expanded {
   transition: all 0.15s linear;
 }
 
+.tickets-early-bird-ended {
+  opacity: 0.48;
+}
+
 .tickets-normal {
   height: 72px;
 }
 
-.tickets-early-bird:hover,
-.tickets-early-bird:active {
+.tickets-item-active:hover,
+.tickets-item-active:active {
   transform: scale(1.08);
 }
 
@@ -452,7 +456,7 @@ body.header-menu-expanded {
   transform: scale(1.08);
 }
 
-.tickets-early-bird {
+.tickets-item-active {
   width: 480px;
   font-size: 32px;
   font-weight: 500;
@@ -823,13 +827,13 @@ body.header-menu-expanded {
     height: 96px;
   }
 
-  .tickets-early-bird {
+  .tickets-item-active {
     width: 98%;
     font-size: 32px;
   }
 
-  .tickets-early-bird:hover,
-  .tickets-early-bird:active {
+  .tickets-item-active:hover,
+  .tickets-item-active:active {
     width: 100%;
   }
 
@@ -838,8 +842,8 @@ body.header-menu-expanded {
     font-size: 24px;
   }
 
-  .tickets-early-bird:hover,
-  .tickets-early-bird:active {
+  .tickets-item-active:hover,
+  .tickets-item-active:active {
     width: 100%;
   }
 
@@ -906,7 +910,7 @@ body.header-menu-expanded {
     font-size: 32px;
   }
 
-  .tickets-early-bird {
+  .tickets-item-active {
     font-size: 24px;
   }
 
@@ -1018,7 +1022,7 @@ body.header-menu-expanded {
     height: 64px;
   }
 
-  .tickets-early-bird {
+  .tickets-item-active {
     font-size: 18px;
   }
 
