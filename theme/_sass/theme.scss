@@ -553,7 +553,7 @@ body.header-menu-expanded {
 
 .sponsors-grabtaxi {
   background-image: url("/assets/logo-grabtaxi.png");
-  background-size: 156px 60px;
+  background-size: 125px 48px;
 }
 
 .sponsors-huawei {
@@ -562,6 +562,7 @@ body.header-menu-expanded {
 
 .sponsors-ezbuy {
   background-image: url("/assets/logo-ezbuy.png");
+  background-size: 165px 48px;
 }
 
 .sponsors-elastic {
@@ -612,6 +613,34 @@ body.header-menu-expanded {
   background-image: url("/assets/logo-google.png");
 }
 
+.sponsors-broadview {
+  background-image: url("/assets/logo-broadview.png");
+}
+
+.sponsors-turing {
+  background-image: url("/assets/logo-turing.png");
+  background-size: 100px 64px;
+}
+
+.sponsors-yibu {
+  background-image: url("/assets/logo-yibu.png");
+  background-size: 174px 48px;
+}
+
+.sponsors-stuq {
+  background-image: url("/assets/logo-stuq.png");
+  background-size: 114px 48px;
+}
+
+.sponsors-segmentfault {
+  background-image: url("/assets/logo-segmentfault.png");
+}
+
+.sponsors-osc {
+  background-image: url("/assets/logo-osc.png");
+  background-size: 161px 48px;
+}
+
 .history-section {
   display: flex;
   justify-content: center;
@@ -628,7 +657,7 @@ body.header-menu-expanded {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.4);
   transition: all 0.5s linear;
 }
 
