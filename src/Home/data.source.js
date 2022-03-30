@@ -300,7 +300,7 @@ export const Teams00DataSource = {
         className: 'teams0-banner-user-elem',
         titleWrapper: {
           className: 'teams0-content-wrapper',
-          url: 'http://2015.gopherchina.org/',
+          url: 'https://2015.gopherchina.dev/',
           children: [
             {
               name: 'image',
@@ -328,7 +328,7 @@ export const Teams00DataSource = {
         className: 'teams0-banner-user-elem',
         titleWrapper: {
           className: 'teams0-content-wrapper',
-          url: 'http://2016.gopherchina.org/',
+          url: 'https://2016.gopherchina.dev/',
           children: [
             {
               name: 'image',
@@ -356,7 +356,7 @@ export const Teams00DataSource = {
         className: 'teams0-banner-user-elem',
         titleWrapper: {
           className: 'teams0-content-wrapper',
-          url: 'http://2017.gopherchina.org/',
+          url: 'https://2017.gopherchina.dev/',
           children: [
             {
               name: 'image',
@@ -384,7 +384,7 @@ export const Teams00DataSource = {
         className: 'teams0-banner-user-elem',
         titleWrapper: {
           className: 'teams0-content-wrapper',
-          url: 'http://2018.gopherchina.org/',
+          url: 'https://2018.gopherchina.dev/',
           children: [
             {
               name: 'image',
@@ -412,7 +412,7 @@ export const Teams00DataSource = {
         className: 'teams0-banner-user-elem',
         titleWrapper: {
           className: 'teams0-content-wrapper',
-          url: 'http://2019.gopherchina.org/',
+          url: 'https://2019.gopherchina.dev/',
           children: [
             {
               name: 'image',
@@ -440,7 +440,7 @@ export const Teams00DataSource = {
         className: 'teams0-banner-user-elem',
         titleWrapper: {
           className: 'teams0-content-wrapper',
-          url: 'http://2020.gopherchina.org/',
+          url: 'https://2020.gopherchina.dev/',
           children: [
             {
               name: 'image',
@@ -468,7 +468,7 @@ export const Teams00DataSource = {
         className: 'teams0-banner-user-elem',
         titleWrapper: {
           className: 'teams0-content-wrapper',
-          url: 'http://2020.gopherchina.org/',
+          url: 'https://2021.gopherchina.dev/',
           children: [
             {
               name: 'image',
