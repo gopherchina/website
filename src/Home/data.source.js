@@ -96,7 +96,7 @@ export const Banner31DataSource = {
         className: 'banner3-time kn1ualpknel-editor_css',
         children: (
           <span>
-            <p>2022.06.11 - 2021.06.12 / 中国·北京</p>
+            <p>2022.09.17 - 2021.09.18 / 中国·北京</p>
           </span>
         ),
       },
