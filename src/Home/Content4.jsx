@@ -22,7 +22,7 @@ function Content4(props) {
             src="https://www.bagevent.com/widget/ticket/8057917?widget=2"
             frameborder="0"
             scrolling="no"
-            height={isMobile? '1100' : '700'}>
+            height={isMobile? '2000' : '1000'}>
           </iframe>
         </OverPack>
       </div>
