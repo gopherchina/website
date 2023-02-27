@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <title>{{.Title}}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link
+      rel="st
+  ylesheet"
+      href="/static/css/amazeui.min.css"
+    />
+    <link rel="stylesheet" href="/static/css/index.css" />
+  </head>
+
+  <body>
+    <header class="am-topbar am-topbar-fixed-top">
+      <div class="am-container">
+        <h1 class="am-topbar-brand">
+          <a href="/">Gopher China</a>
+        </h1>
+
+        <button
+          class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only"
+          data-am-collapse="{target: '#collapse-head'}"
+        >
+          <span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span>
+        </button>
+
+        <div class="am-collapse am-topbar-collapse" id="collapse-head">
+          <ul class="am-nav am-nav-pills am-topbar-nav">
+            <li {{if .indexActive}} class="am-active" {{end}}><a href="/">{{i18n .Lang "home"}}</a></li>
+            <li {{if .userActive}} class="am-active" {{end}}><a href="/speaker">{{i18n .Lang "speaker"}}</a></li>
+            <li {{if .regActive}} class="am-active" {{end}}><a href="/register">{{i18n .Lang "register"}}</a></li>
+            <li {{if .signinActive}} class="am-active" {{end}} class="am-dropdown" data-am-dropdown>
+              <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                {{i18n .Lang "venue"}} <span class="am-icon-caret-down"></span>
+              </a>
+              <ul class="am-dropdown-content">
+                <li><a href="/venue">{{i18n .Lang "venuemap"}}</a></li>
+                <li><a href="/travel">{{i18n .Lang "travel"}}</a></li>
+                <li><a href="/accommodation">{{i18n .Lang "accommodation"}}</a></li>
+              </ul>
+            </li>
+            <li class="am-dropdown" data-am-dropdown>
+              <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                {{i18n .Lang "sponsor"}} <span class="am-icon-caret-down"></span>
+              </a>
+              <ul class="am-dropdown-content">
+                <li><a href="/#sponsors">{{i18n .Lang "sponsor"}}</a></li>
+                <li><a href="/#media">{{i18n .Lang "supporters"}}</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="am-topbar-right" style="margin-top: 5px">
+            <select data-am-selected="{btnWidth:120}" id="lang">
+              {{range .RestLangs}}
+              <option {{if eq $.Lang .Lang}}selected{{end}} class="lang-changed" value="{{.Lang}}">
+                {{i18n $.Lang .Name}}
+              </option>
+              {{end}}
+            </select>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
